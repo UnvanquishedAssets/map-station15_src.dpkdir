@@ -27,17 +27,17 @@
 		}
 	}
 	*MATERIAL	1	{
-		*MATERIAL_NAME	"textures/station15/aseleaf"
+		*MATERIAL_NAME	"textures/station15_custom/aseleaf"
 		*MATERIAL_CLASS	"Standard"
 		*MATERIAL_DIFFUSE	0.645738	1.000000	0.417114
 		*MATERIAL_SHADING Phong
 		*MAP_DIFFUSE	{
-			*MAP_NAME	"textures/station15/aseleaf"
+			*MAP_NAME	"textures/station15_custom/aseleaf"
 			*MAP_CLASS	"Bitmap"
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\station15\leave02d.tga"
+			*BITMAP	"..\textures\station15_custom\leave02d.tga"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
