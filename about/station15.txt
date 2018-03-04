@@ -32,11 +32,12 @@
           theme : A medium-sized cargo handling station in space.
 
 	-[ legal ]-------------------------------------------------------------------
-		Please refer to the Tremulous license in the file COPYING. This map is 
-		copyright to me, but you may use it as described in the COPYING file.
+		The map file is licensed under a
+		Creative Commons Attribution-Share-Alike 3.0 License:
+		https://creativecommons.org/licenses/by-sa/3.0/
 		
 		The fan and shoe models were made by me; you may use them under the same conditions 
-		as the tremulous COPYING file dictates.
+		as the map file.
 		
 		The textures by Speedy are under special permission to use under the CC-BY-SA license.
    
