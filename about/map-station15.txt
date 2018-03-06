@@ -6,6 +6,42 @@
 -[ credits ]-----------------------------------------------------------------
     construction: : supertanker | supertanker13@gmail.com
     textures      : Some textures are from evillair's texture sets (these will be replaced in a future version)
+                    Some were contributed by Keziolio under a CC By-SA 3.0 license:
+
+                         textures/station15_custom_src/leave02c.png
+                         textures/station15_custom_src/leave02d.png
+                         textures/station15_custom_src/leave04c.png
+                         textures/station15_custom_src/sign_airlock.png
+                         textures/station15_custom_src/sign_airlock_g.png
+                         textures/station15_custom_src/sign_alien.png
+                         textures/station15_custom_src/sign_alien_g.png
+                         textures/station15_custom_src/sign_appreciation.png
+                         textures/station15_custom_src/sign_appreciation_g.png
+                         textures/station15_custom_src/sign_arrow_left.png
+                         textures/station15_custom_src/sign_arrow_left_g.png
+                         textures/station15_custom_src/sign_arrow_right.png
+                         textures/station15_custom_src/sign_arrow_right_g.png
+                         textures/station15_custom_src/sign_arrow_up.png
+                         textures/station15_custom_src/sign_arrow_up_g.png
+                         textures/station15_custom_src/sign_cargo.png
+                         textures/station15_custom_src/sign_cargo_airlock.png
+                         textures/station15_custom_src/sign_cargo_airlock_g.png
+                         textures/station15_custom_src/sign_cargo_g.png
+                         textures/station15_custom_src/sign_furnace.png
+                         textures/station15_custom_src/sign_furnace_g.png
+                         textures/station15_custom_src/sign_garden.png
+                         textures/station15_custom_src/sign_garden_g.png
+                         textures/station15_custom_src/sign_human.png
+                         textures/station15_custom_src/sign_human_g.png
+                         textures/station15_custom_src/sign_pipe.png
+                         textures/station15_custom_src/sign_pipe_g.png
+                         textures/station15_custom_src/sign_vent.png
+                         textures/station15_custom_src/sign_vent_g.png
+                         textures/station15_custom_src/ter_moss1.png
+                         textures/station15_custom_src/ter_mud1.png
+                         textures/station15_custom_src/tree01_bark.png
+                         textures/station15_custom_src/tree01_leaves.png
+
     sounds        : Mostly from Tremulous, some from the Freesound project (http://freesound.iua.upf.edu/)
     thanks to     : The people that helped; the Great Clam.
                   : The betatesters: Nux, A_Spork, Kharnov, Kasm279, superpie,
@@ -24,11 +60,11 @@
     compile settings :
 
         FAST (testing):
-                bsp: -leaktest    -meta -samplesize 16
-                visoptions:        -hint -vis -saveprt
-                lightoptions:    -light -lightmapsearchpower 3 -fast -bounce 4
-                    -bouncescale 2 -shade -samples 2 -patchshadows
-                    -lightmapsize 1024 -deluxe
+                bsp: -leaktest  -meta -samplesize 16
+                visoptions:     -hint -vis -saveprt
+                lightoptions:   -light -lightmapsearchpower 3 -fast -bounce 4
+                                -bouncescale 2 -shade -samples 2 -patchshadows
+                                -lightmapsize 1024 -deluxe
 
         FINAL (beauty shots):
                 bsp: -leaktest  -meta -samplesize 4
