@@ -4,135 +4,127 @@ station15/fountain
 	{
 		particle
 		{
-	      shader sync textures/station15_custom/waterp_shader
+			shader sync textures/station15_custom/waterp_shader
 
-	      displacement 0 0 0 ~2.0
+			displacement 0 0 0 ~2.0
 
-		velocityType 		static
-		velocityDir 		linear
-		velocity 		      0 0 1 ~12
-		velocityMagnitude 	160
+			velocityType 		static
+			velocityDir 		linear
+			velocity			0 0 1 ~12
+			velocityMagnitude 	160
 
-		accelerationType	      static
-		accelerationDir		linear
-		acceleration 		0 0 -1 ~25
-		accelerationMagnitude 	260
+			accelerationType		static
+			accelerationDir			linear
+			acceleration			0 0 -1 ~25
+			accelerationMagnitude 	260
 
-		bounce		0
-		radius		75 1 1
-		alpha		400 .2 .1
-		rotation	0 0 ~360
+			bounce		0
+			radius		75 1 1
+			alpha		400 .2 .1
+			rotation	0 0 ~360
 
-		lifeTime 600
+			lifeTime 600
 
-		overdrawProtection
+			overdrawProtection
 		}
 
-
-
-	delay 0
-	count infinite
-	period 34 - 0
+		delay 0
+		count infinite
+		period 34 - 0
 	}
 
 	ejector
 	{
 		particle
 		{
-	      shader sync textures/station15_custom/waterp_shader
+			shader sync textures/station15_custom/waterp_shader
 
-	      displacement 0 0 0 ~2.0
+			displacement 0 0 0 ~2.0
 
-		velocityType 		static
-		velocityDir 		linear
-		velocity 		      0 0 1 ~6
-		velocityMagnitude 	160
+			velocityType 		static
+			velocityDir 		linear
+			velocity 			0 0 1 ~6
+			velocityMagnitude 	160
 
-		accelerationType	      static
-		accelerationDir		linear
-		acceleration 		0 0 -1 ~25
-		accelerationMagnitude 	260
+			accelerationType		static
+			accelerationDir			linear
+			acceleration			0 0 -1 ~25
+			accelerationMagnitude 	260
 
-		bounce		0
-		radius		75 1 1
-		alpha		400 .4 .12
-		rotation	0 0 ~360
+			bounce		0
+			radius		75 1 1
+			alpha		400 .4 .12
+			rotation	0 0 ~360
 
-		lifeTime 1200
+			lifeTime 1200
 
-		overdrawProtection
+			overdrawProtection
 		}
 
-
-
-	delay 0
-	count infinite
-	period 30 - 0
+		delay 0
+		count infinite
+		period 30 - 0
 	}
-	
 }
-
 
 station15/haze
 {
-	
-		ejector
+	ejector
 	{
 		particle
 		{
-	    shader sync textures/station15_custom/haze_shader
+			shader sync textures/station15_custom/haze_shader
 
-	    displacement -20 0 0 ~12.0
+			displacement -20 0 0 ~12.0
 
-		velocityType 		static
-		velocityDir 		linear
-		velocity 		      0 0 1 ~360
-		velocityMagnitude 	32
+			velocityType 		static
+			velocityDir 		linear
+			velocity			0 0 1 ~360
+			velocityMagnitude 	32
 
-		accelerationType	      static
-		accelerationDir		linear
-		acceleration 		1 0 -0.4 ~20
-		accelerationMagnitude 	55
+			accelerationType		static
+			accelerationDir			linear
+			acceleration			1 0 -0.4 ~20
+			accelerationMagnitude 	55
 
-		radius		75 20 15
-		alpha		100 0.12 .0
-		rotation	0 0 ~3
+			radius		75 20 15
+			alpha		100 0.12 .0
+			rotation	0 0 ~3
 
-		lifeTime 1000
+			lifeTime 1000
 
-		overdrawProtection
-		bounce		0
+			overdrawProtection
+			bounce	0
 		}
-		
+
 		particle
 		{
-	    shader sync textures/station15_custom/haze_shader
+			shader sync textures/station15_custom/haze_shader
 
-	    displacement 20 0 0 ~14.0
+			displacement 20 0 0 ~14.0
 
-		velocityType 		static
-		velocityDir 		linear
-		velocity 		      0 0 1 ~360
-		velocityMagnitude 	32
+			velocityType 		static
+			velocityDir 		linear
+			velocity			0 0 1 ~360
+			velocityMagnitude 	32
 
-		accelerationType	      static
-		accelerationDir		linear
-		acceleration 		-1 0 -0.2 ~45
-		accelerationMagnitude 	44
+			accelerationType		static
+			accelerationDir			linear
+			acceleration			-1 0 -0.2 ~45
+			accelerationMagnitude 	44
 
-		radius		75 30 15
-		alpha		100 0.12 .0
-		rotation	0 0 ~3
+			radius		75 30 15
+			alpha		100 0.12 .0
+			rotation	0 0 ~3
 
-		lifeTime 1000
+			lifeTime 1000
 
-		overdrawProtection
-		bounce		0
+			overdrawProtection
+			bounce	0
 		}
 
-	delay 0
-	count infinite
-	period 40 - 0
-	}	
+		delay 0
+		count infinite
+		period 40 - 0
+	}
 }
-

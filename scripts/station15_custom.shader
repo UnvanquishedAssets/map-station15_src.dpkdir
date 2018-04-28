@@ -34,14 +34,14 @@ textures/station15_custom/u_trlightline3
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_trlightline_g
 		blendfunc gl_dst_color gl_one
-		rgbGen wave sawtooth 0.6 0.1 0 7 
+		rgbGen wave sawtooth 0.6 0.1 0 7
 	}
 }
 
@@ -58,14 +58,14 @@ textures/station15_custom/u_trlightline2_or
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_trlightline2_or_g
 		blendfunc add
-		rgbGen wave sawtooth 0.7 0.1 0 7 
+		rgbGen wave sawtooth 0.7 0.1 0 7
 	}
 }
 
@@ -82,14 +82,14 @@ textures/station15_custom/u_trlightline_or
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_trlightline2_or_g
 		blendfunc add
-		rgbGen wave sawtooth 0.6 0.1 0 7 
+		rgbGen wave sawtooth 0.6 0.1 0 7
 	}
 }
 
@@ -106,14 +106,14 @@ textures/station15_custom/u_trlightline_blue
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_trlightline_blue_g
 		blendfunc add
-		rgbGen wave sawtooth 0.6 0.1 0 7 
+		rgbGen wave sawtooth 0.6 0.1 0 7
 	}
 }
 
@@ -130,14 +130,14 @@ textures/station15_custom/u_trlightline
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_trlightline_g
 		blendfunc add
-		rgbGen wave sawtooth 0.6 0.1 0 7 
+		rgbGen wave sawtooth 0.6 0.1 0 7
 	}
 }
 
@@ -153,9 +153,9 @@ textures/station15_custom/u_lamp1
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamp_g
@@ -175,9 +175,9 @@ textures/station15_custom/u_lamp1b
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamp_g
@@ -197,9 +197,9 @@ textures/station15_custom/u_lamp2
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamp_g
@@ -220,9 +220,9 @@ textures/station15_custom/u_lamp2_64
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamp2_64_g
@@ -242,14 +242,14 @@ textures/station15_custom/u_lamp1_64
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamp2_64_g
 		blendfunc gl_dst_color gl_one
-		rgbGen wave noise 0.7 0.3 13 1 
+		rgbGen wave noise 0.7 0.3 13 1
 	}
 }
 
@@ -265,9 +265,9 @@ textures/station15_custom/u_lamp3
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamp3_g
@@ -287,9 +287,9 @@ textures/station15_custom/u_lamp3_blue
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamp3_blue_g
@@ -309,9 +309,9 @@ textures/station15_custom/u_lamp3_or
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamp3_or_g
@@ -331,9 +331,9 @@ textures/station15_custom/u_lamp4
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamp4_g
@@ -353,9 +353,9 @@ textures/station15_custom/u_lamp4_or
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamp4_or_g
@@ -375,9 +375,9 @@ textures/station15_custom/u_lamp4_or_2k
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamp4_or_g
@@ -397,9 +397,9 @@ textures/station15_custom/u_lamp4_blue
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamp4_blue_g
@@ -419,9 +419,9 @@ textures/station15_custom/u_lamp5_blue
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamp5_blue_g
@@ -441,9 +441,9 @@ textures/station15_custom/u_lamp5_blue_flashing
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamp5_blue_g
@@ -464,9 +464,9 @@ textures/station15_custom/u_lamp5
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamp5_g
@@ -486,14 +486,14 @@ textures/station15_custom/u_lamp5_or
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamp5_or_g
 		blendfunc gl_one_minus_dst_color gl_one
-		rgbGen wave sin 0.92 0.03 0 8 
+		rgbGen wave sin 0.92 0.03 0 8
 	}
 }
 
@@ -509,14 +509,14 @@ textures/station15_custom/u_lamp5_p
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamp5_p_g
 		blendfunc gl_one_minus_dst_color gl_one
-		rgbGen wave sin 0.9 0.03 0 8 
+		rgbGen wave sin 0.9 0.03 0 8
 	}
 }
 
@@ -532,14 +532,14 @@ textures/station15_custom/u_lamp7
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamp7_g
 		blendfunc add
-		rgbGen wave sin 0.92 0.03 0 8 
+		rgbGen wave sin 0.92 0.03 0 8
 	}
 }
 
@@ -555,14 +555,14 @@ textures/station15_custom/u_lamp7_blue
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamp7_blue_g
 		blendfunc add
-		rgbGen wave sin 0.9 0.05 0 5 
+		rgbGen wave sin 0.9 0.05 0 5
 	}
 }
 
@@ -578,14 +578,14 @@ textures/station15_custom/u_lamplong1b
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamplong1_g
 		blendfunc add
-		rgbGen wave sin 0.93 0.04 0 5 
+		rgbGen wave sin 0.93 0.04 0 5
 	}
 }
 
@@ -601,14 +601,14 @@ textures/station15_custom/u_lamplong1
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamplong1_g
 		blendfunc add
-		rgbGen wave sin 0.93 0.04 0 5 
+		rgbGen wave sin 0.93 0.04 0 5
 	}
 }
 
@@ -624,14 +624,14 @@ textures/station15_custom/u_lamplong1_blue
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamplong1_blue_g
 		blendfunc gl_one_minus_dst_color gl_one
-		rgbGen wave sin 0.9 0.2 0 0.3 
+		rgbGen wave sin 0.9 0.2 0 0.3
 	}
 }
 
@@ -647,14 +647,14 @@ textures/station15_custom/u_lamplong1_gr
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamplong1_gr_g
 		blendfunc gl_one_minus_dst_color gl_one
-		rgbGen wave sin 0.9 0.09 0 1 
+		rgbGen wave sin 0.9 0.09 0 1
 	}
 }
 
@@ -670,14 +670,14 @@ textures/station15_custom/u_lamplong1_or
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamplong1_or_g
 		blendfunc gl_one_minus_dst_color gl_one
-		rgbGen wave sin 0.9 0.09 0 1 
+		rgbGen wave sin 0.9 0.09 0 1
 	}
 }
 
@@ -694,14 +694,14 @@ textures/station15_custom/u_thinline1
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_thinline1_g
 		blendfunc gl_dst_color gl_one
-		rgbGen wave sawtooth 0.8 0.1 0 7 
+		rgbGen wave sawtooth 0.8 0.1 0 7
 	}
 }
 
@@ -718,14 +718,14 @@ textures/station15_custom/u_thinline1_blue
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_thinline1_blue_g
 		blendfunc gl_dst_color gl_one
-		rgbGen wave sawtooth 0.7 0.1 0 7 
+		rgbGen wave sawtooth 0.7 0.1 0 7
 	}
 }
 
@@ -742,14 +742,14 @@ textures/station15_custom/u_thinline1_or
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_thinline1_or_g
 		blendfunc gl_dst_color gl_one
-		rgbGen wave sawtooth 0.7 0.1 0 7 
+		rgbGen wave sawtooth 0.7 0.1 0 7
 	}
 }
 
@@ -766,14 +766,14 @@ textures/station15_custom/u_thinline2_or
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_thinline1_or_g
 		blendfunc gl_dst_color gl_one
-		rgbGen wave sawtooth 0.8 0.1 0 7 
+		rgbGen wave sawtooth 0.8 0.1 0 7
 	}
 }
 
@@ -790,14 +790,14 @@ textures/station15_custom/u_thinline2
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_thinline1_g
 		blendfunc gl_dst_color gl_one
-		rgbGen wave sawtooth 0.8 0.1 0 7 
+		rgbGen wave sawtooth 0.8 0.1 0 7
 	}
 }
 
@@ -814,14 +814,14 @@ textures/station15_custom/u_trlight1
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_trlight1_g
 		blendfunc add
-		rgbGen wave sawtooth 0.6 0.1 0 7 
+		rgbGen wave sawtooth 0.6 0.1 0 7
 	}
 }
 
@@ -838,14 +838,14 @@ textures/station15_custom/u_trlight2
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_trlight1_g
 		blendfunc gl_dst_color gl_one
-		rgbGen wave sawtooth 0.9 0.2 0 7 
+		rgbGen wave sawtooth 0.9 0.2 0 7
 	}
 }
 
@@ -862,14 +862,14 @@ textures/station15_custom/u_trlight2_or
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_trlight2_or_g
 		blendfunc gl_one_minus_dst_color gl_one
-		rgbGen wave sawtooth 0.77 0.1 0 7 
+		rgbGen wave sawtooth 0.77 0.1 0 7
 	}
 }
 
@@ -886,14 +886,14 @@ textures/station15_custom/u_trlight3
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_trlight1_g
 		blendfunc add
-		rgbGen wave sawtooth 0.6 0.1 0 7 
+		rgbGen wave sawtooth 0.6 0.1 0 7
 	}
 }
 
@@ -910,14 +910,14 @@ textures/station15_custom/u_trlight3_blue
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_trlight3_blue_g
 		blendfunc gl_one_minus_dst_color gl_one
-		rgbGen wave sawtooth 0.9 0.2 0 7 
+		rgbGen wave sawtooth 0.9 0.2 0 7
 	}
 }
 
@@ -934,14 +934,14 @@ textures/station15_custom/u_py1_or_2
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_py1_or_g
 		blendfunc add
-		rgbGen wave sin 0.4 0.4 2 0.2 
+		rgbGen wave sin 0.4 0.4 2 0.2
 	}
 }
 
@@ -958,14 +958,14 @@ textures/station15_custom/u_py1_or
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_py1_or_g
 		blendfunc add
-		rgbGen wave sin 0.5 0.4 0 0.25 
+		rgbGen wave sin 0.5 0.4 0 0.25
 	}
 }
 
@@ -982,14 +982,14 @@ textures/station15_custom/u_py1_or128
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_py1_or_g
 		blendfunc add
-		rgbGen wave sin 0.8 0.2 0 0.5 
+		rgbGen wave sin 0.8 0.2 0 0.5
 	}
 }
 
@@ -1006,15 +1006,15 @@ textures/station15_custom/u_py1_blue
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamp_g
 		blendfunc gl_one_minus_dst_color gl_one
-		rgbGen wave triangle 0.5 0.4 0 225 
-		tcMod stretch sin 1.5 0.1 0 12 
+		rgbGen wave triangle 0.5 0.4 0 225
+		tcMod stretch sin 1.5 0.1 0 12
 	}
 }
 
@@ -1031,15 +1031,15 @@ textures/station15_custom/u_floor_des_mark_b
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_floor_mark_blue
 		blendfunc add
-		rgbGen wave sin 0.6 0.2 0.2 0.3 
+		rgbGen wave sin 0.6 0.2 0.2 0.3
 	}
 }
 
@@ -1054,15 +1054,15 @@ textures/station15_custom/u_floor_des_mark_or
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_floor_mark_or
 		blendfunc add
-		rgbGen wave sin 0.6 0.2 0.2 0.3 
+		rgbGen wave sin 0.6 0.2 0.2 0.3
 	}
 }
 
@@ -1077,15 +1077,15 @@ textures/station15_custom/u_floor_mark_or
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_floor_mark_or
 		blendfunc add
-		rgbGen wave sin 0.6 0.2 0.2 0.3 
+		rgbGen wave sin 0.6 0.2 0.2 0.3
 	}
 }
 
@@ -1100,15 +1100,15 @@ textures/station15_custom/u_floor_mark_blue
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_floor_mark_blue
 		blendfunc add
-		rgbGen wave sin 0.6 0.2 0.2 0.3 
+		rgbGen wave sin 0.6 0.2 0.2 0.3
 	}
 }
 
@@ -1123,16 +1123,16 @@ textures/station15_custom/u_floor_des_pad_7
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_floor_pan4_l_g
 		blendfunc add
-		rgbGen wave sin 0.6 0.2 0 2 
-		tcMod stretch sin 2.5 1 0 1 
+		rgbGen wave sin 0.6 0.2 0 2
+		tcMod stretch sin 2.5 1 0 1
 		tcMod rotate 90
 	}
 }
@@ -1148,16 +1148,16 @@ textures/station15_custom/u_floor_pad1_or
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_floor_pad1_g
 		blendfunc add
-		rgbGen wave triangle 0.5 0.4 3434 1 
-		tcMod stretch sin 1 0.01 0 1 
+		rgbGen wave triangle 0.5 0.4 3434 1
+		tcMod stretch sin 1 0.01 0 1
 	}
 }
 
@@ -1172,16 +1172,16 @@ textures/station15_custom/u_floor_pad1_b
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_floor_pad1_g_b
 		blendfunc add
-		rgbGen wave triangle 0.5 0.4 3434 1 
-		tcMod stretch sin 1 0.01 0 1 
+		rgbGen wave triangle 0.5 0.4 3434 1
+		tcMod stretch sin 1 0.01 0 1
 	}
 }
 
@@ -1196,16 +1196,16 @@ textures/station15_custom/u_floor3_pad_7b
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_floor_pan4_l_g
 		blendfunc add
-		rgbGen wave sin 0.6 0.2 0 2 
-		tcMod stretch sin 2.5 1 0 1 
+		rgbGen wave sin 0.6 0.2 0 2
+		tcMod stretch sin 2.5 1 0 1
 		tcMod rotate 90
 	}
 }
@@ -1221,16 +1221,16 @@ textures/station15_custom/u_floor3_pad_6
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_floor_pan4_l_g
 		blendfunc add
 		rgbGen const ( 1 0.345098 0.0352941 )
-		tcMod stretch sin 1.4 0.6 0 1 
+		tcMod stretch sin 1.4 0.6 0 1
 	}
 }
 
@@ -1245,16 +1245,16 @@ textures/station15_custom/u_floor3_pad_6b
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_floor_pan4_l_g
 		blendfunc add
 		rgbGen const ( 0.0156863 0.537255 0.756863 )
-		tcMod stretch sin 1.4 0.6 0 1 
+		tcMod stretch sin 1.4 0.6 0 1
 	}
 }
 
@@ -1269,23 +1269,23 @@ textures/station15_custom/u_floor3_pad_8
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_floor_pan4_l_g
 		blendfunc add
-		rgbGen wave sin 0.8 0.1 0 2 
-		tcMod stretch sawtooth 0.83 0.1 1 0 
+		rgbGen wave sin 0.8 0.1 0 2
+		tcMod stretch sawtooth 0.83 0.1 1 0
 		tcMod scale 2 2
 	}
 	{
 		map textures/station15_custom_src/u_floor_pan4_l_g
 		blendfunc gl_one_minus_dst_color gl_one
-		rgbGen wave sin 0.4 0.1 0 1 
-		tcMod stretch sawtooth 1.7 1 1 1 
+		rgbGen wave sin 0.4 0.1 0 1
+		tcMod stretch sawtooth 1.7 1 1 1
 		tcMod rotate 90
 	}
 }
@@ -1301,14 +1301,14 @@ textures/station15_custom/u_floor_pan3_l
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_floor_pan3_l_g
 		blendfunc gl_one_minus_dst_color gl_one
-		rgbGen wave noise 0.7 0.13 0 2 
+		rgbGen wave noise 0.7 0.13 0 2
 	}
 }
 
@@ -1323,14 +1323,14 @@ textures/station15_custom/u_floor_pan4_l
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_floor_pan4_l_g
 		blendfunc add
-		rgbGen wave noise 0.6 0.06 0 99 
+		rgbGen wave noise 0.6 0.06 0 99
 	}
 }
 
@@ -1345,15 +1345,15 @@ textures/station15_custom/u_floor3_lamp1
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_floor_pan4_l_g
 		blendfunc add
-		rgbGen wave noise 0.6 0.2 0 1 
-		tcMod stretch sin 1 0.4 0 0.09 
+		rgbGen wave noise 0.6 0.2 0 1
+		tcMod stretch sin 1 0.4 0 0.09
 	}
 }
 
@@ -1361,17 +1361,17 @@ textures/station15_custom/u_floor3_lamp1
 
 textures/station15_custom/space15_skybox
 {
-        qer_editorimage textures/station15_custom_src/Asteroid
-		q3map_skylight 85 4
-		q3map_noFast
-		q3map_lightmapFilterRadius 0 2
-		surfaceparm sky
-     	surfaceparm noimpact
-      	surfaceparm nolightmap
-      
-     	q3map_sun  1 .9 .8 20 265 64
-     
-      	skyparms env/station15/space15 - -
+	qer_editorimage textures/station15_custom_src/Asteroid
+	q3map_skylight 85 4
+	q3map_noFast
+	q3map_lightmapFilterRadius 0 2
+	surfaceparm sky
+	surfaceparm noimpact
+	surfaceparm nolightmap
+
+	q3map_sun  1 .9 .8 20 265 64
+
+	skyparms env/station15/space15 - -
 }
 
 textures/station15_custom/translight
@@ -1428,7 +1428,7 @@ surfaceparm nomarks
 		blendfunc add
 		rgbGen identity
 		}
-	
+
 }
 
 textures/station15_custom/door1_locked
@@ -1448,13 +1448,13 @@ surfaceparm nomarks
 		blendfunc add
 		rgbGen identity
 		}
-		
+	
 }
 
 textures/station15_custom/st_fan
 {
 	qer_editorimage textures/station15_custom_src/st_fan1
-	
+
 	{
 		map textures/station15_custom_src/st_fan1
 		rgbGen identity
@@ -1560,10 +1560,10 @@ textures/station15_custom/u_gr8_1
 		alphaFunc LT128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -1581,10 +1581,10 @@ textures/station15_custom/u_gr8_1_half
 		alphaFunc LT128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -1602,10 +1602,10 @@ textures/station15_custom/u_gr8_10a
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -1625,10 +1625,10 @@ textures/station15_custom/u_gr8_11
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -1648,10 +1648,10 @@ textures/station15_custom/u_gr8_12a
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -1669,10 +1669,10 @@ textures/station15_custom/u_gr8_13a
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -1690,10 +1690,10 @@ textures/station15_custom/u_gr8_13ab
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -1711,10 +1711,10 @@ textures/station15_custom/u_gr8_13orangea
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -1732,10 +1732,10 @@ textures/station15_custom/u_gr8_14a
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -1753,10 +1753,10 @@ textures/station15_custom/u_gr8_2a
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -1774,10 +1774,10 @@ textures/station15_custom/u_gr8_2ba
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -1795,10 +1795,10 @@ textures/station15_custom/u_gr8_3a
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -1816,10 +1816,10 @@ textures/station15_custom/u_gr8_4a
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -1837,10 +1837,10 @@ textures/station15_custom/u_gr8_5a
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -1858,10 +1858,10 @@ textures/station15_custom/u_gr8_6a
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -1879,10 +1879,10 @@ textures/station15_custom/u_gr8_7a
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -1900,10 +1900,10 @@ textures/station15_custom/u_gr8_8
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -1921,10 +1921,10 @@ textures/station15_custom/u_gr8_7b
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -1942,10 +1942,10 @@ textures/station15_custom/u_gr8_8ba
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -1963,10 +1963,10 @@ textures/station15_custom/u_gr8_8ca
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -1984,10 +1984,10 @@ textures/station15_custom/u_gr8_9a
 		alphaFunc GE128
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
 		rgbGen identity
-		tcGen lightmap 
+		tcGen lightmap
 		depthFunc equal
 	}
 }
@@ -2082,14 +2082,14 @@ textures/station15_custom/u_furnacelamp
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamplong1_or_g
 		blendfunc gl_one_minus_dst_color gl_one
-		rgbGen wave sin 0.8 0.4 0 1.4 
+		rgbGen wave sin 0.8 0.4 0 1.4
 	}
 
 }
@@ -2107,14 +2107,14 @@ textures/station15_custom/ship_engine
 		rgbGen identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/u_lamp5_or_g
 		blendfunc gl_one_minus_dst_color gl_one
-		rgbGen wave sin 0.92 0.03 0 8 
+		rgbGen wave sin 0.92 0.03 0 8
 	}
 }
 
@@ -2172,15 +2172,15 @@ textures/station15_custom/reactorp
 
 textures/station15_custom/terrain1
 {
-   qer_editorimage textures/station15_custom_src/ter_moss1
-	
+	qer_editorimage textures/station15_custom_src/ter_moss1
+
 	q3map_nonplanar
 	q3map_shadeangle 120
 	q3map_tcGen ivector ( 256 0 0 ) ( 0 256 0 )
 	q3map_alphaMod dotproduct2 ( 0.0 0.0 0.75 )
 
-	// For nice grass on the ground (drops fps :/)	
-    	//q3map_surfacemodel models/station15-r1/grass.ase 45 0.15 0.6 1.2 0 360 1
+	// For nice grass on the ground (drops fps :/)
+	//q3map_surfacemodel models/station15-r1/grass.ase 45 0.15 0.6 1.2 0 360 1
 
 	{
 		map textures/station15_custom_src/ter_moss1	// Primary
@@ -2241,7 +2241,7 @@ textures/station15_custom/water
 	//{
 	//	map $lightmap
 	//	rgbGen identity
-	//	tcGen lightmap 
+	//	tcGen lightmap
 	//	blendfunc filter
 	//}
 }
@@ -2266,7 +2266,7 @@ textures/station15_custom/waterspout
 	{
 		map textures/station15_custom_src/tinfx
 		tcGen environment
-		
+	
 		blendfunc add
 		tcMod turb .1 .15 0 .04
 		tcMod scale .3 .3
@@ -2291,7 +2291,7 @@ textures/station15_custom/waterspout
 	//{
 	//	map $lightmap
 	//	rgbGen identity
-	//	tcGen lightmap 
+	//	tcGen lightmap
 	//	blendfunc filter
 	//}
 }
@@ -2317,9 +2317,9 @@ textures/station15_custom/grass
 {
 	q3map_cloneShader textures/station15_custom/grass_back
 	q3map_vertexScale 2
-	
+
 	// Nah, no bouncing of light, take years to compile and you don't really
-    // see a difference ...
+	// see a difference ...
 	q3map_bounce 0
 
 	qer_alphafunc greater 0.5
@@ -2329,8 +2329,8 @@ textures/station15_custom/grass
 	surfaceparm nomarks
 	qer_trans 0.99
 
-    // Ok, THIS really kills every cpu... But it looks so damn good :)
-    //deformVertexes wave 30 sin 0 3 0 .2
+	// Ok, THIS really kills every cpu... But it looks so damn good :)
+	//deformVertexes wave 30 sin 0 3 0 .2
 
 	{
 		map textures/station15_custom_src/grass
@@ -2359,7 +2359,7 @@ textures/station15_custom/grass_back
 		alphaFunc GE128
 		blendFunc blend
 		alphaGen portal 256
-	}	
+	}
 }
 
 
@@ -2386,8 +2386,8 @@ textures/station15_custom/mush_top01
 		map textures/station15_custom_src/mush_top01
 		rgbGen vertex
 		depthWrite
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 textures/station15_custom/mush_backface01
@@ -2399,8 +2399,8 @@ textures/station15_custom/mush_backface01
 	{
 		map textures/station15_custom_src/mush_back01
 		rgbGen const ( 0.3 0.3 0.3 )
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 textures/station15_custom/mush_stem01
@@ -2410,7 +2410,7 @@ textures/station15_custom/mush_stem01
 	{
 		map textures/station15_custom_src/mush_stem01
 		rgbGen const ( 0.3 0.3 0.3 )
-	}	
+	}
 }
 
 // ======================================================================
@@ -2435,7 +2435,7 @@ textures/station15_custom/tree01_leaves
 		rgbGen identity
 		depthWrite
 		alphaFunc GE128
-	}	
+	}
 	{
 		map $lightmap
 		rgbGen identity
@@ -2455,7 +2455,7 @@ textures/station15_custom/tree01_leaves_back
 		map textures/station15_custom_src/tree01_leaves
 		rgbGen const ( 0.9 0.9 0.9 )
 		alphaFunc GE128
-	}	
+	}
 	{
 		map $lightmap
 		rgbGen identity
@@ -2514,8 +2514,8 @@ textures/station15_custom/vine06
 		map textures/station15_custom_src/vine06
 		rgbGen vertex
 		depthWrite
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 textures/station15_custom/vine06_back
@@ -2527,8 +2527,8 @@ textures/station15_custom/vine06_back
 	{
 		map textures/station15_custom_src/vine06
 		rgbGen const ( 0.25 0.25 0.25 )
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 // ======================================================================
@@ -2548,8 +2548,8 @@ textures/station15_custom/batleaf	// batleaf
 		map textures/station15_custom_src/batleaf
 		rgbGen vertex
 		depthWrite
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 textures/station15_custom/batleaf_back
@@ -2561,8 +2561,8 @@ textures/station15_custom/batleaf_back
 	{
 		map textures/station15_custom_src/batleaf
 		rgbGen const ( 0.2 0.2 0.2 )
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 
@@ -2577,8 +2577,8 @@ textures/station15_custom/aseleaf		// Used for ASE file generation only
 		map textures/station15_custom_src/leave02d
 		rgbGen vertex
 		depthWrite
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 textures/station15_custom/leave01a		// fern 1
@@ -2595,8 +2595,8 @@ textures/station15_custom/leave01a		// fern 1
 		map textures/station15_custom_src/leave01a
 		rgbGen vertex
 		depthWrite
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 textures/station15_custom/leave01a_back
@@ -2608,8 +2608,8 @@ textures/station15_custom/leave01a_back
 	{
 		map textures/station15_custom_src/leave01a
 		rgbGen const ( 0.2 0.2 0.2 )
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 // ----------------------------------------------------------------------
@@ -2627,8 +2627,8 @@ textures/station15_custom/leave01b		// fern 2
 		map textures/station15_custom_src/leave01b
 		rgbGen vertex
 		depthWrite
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 textures/station15_custom/leave01b_back
@@ -2640,8 +2640,8 @@ textures/station15_custom/leave01b_back
 	{
 		map textures/station15_custom_src/leave01b
 		rgbGen const ( 0.2 0.2 0.2 )
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 // ----------------------------------------------------------------------
@@ -2659,8 +2659,8 @@ textures/station15_custom/leave01d		// fern (dead)
 		map textures/station15_custom_src/leave01d
 		rgbGen vertex
 		depthWrite
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 textures/station15_custom/leave01d_back
@@ -2672,8 +2672,8 @@ textures/station15_custom/leave01d_back
 	{
 		map textures/station15_custom_src/leave01d
 		rgbGen const ( 0.2 0.2 0.2 )
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 // ----------------------------------------------------------------------
@@ -2691,8 +2691,8 @@ textures/station15_custom/leave02a		// Dock leave
 		map textures/station15_custom_src/leave02a
 		rgbGen vertex
 		depthWrite
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 textures/station15_custom/leave02a_back
@@ -2704,8 +2704,8 @@ textures/station15_custom/leave02a_back
 	{
 		map textures/station15_custom_src/leave02a
 		rgbGen const ( 0.2 0.2 0.2 )
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 // ----------------------------------------------------------------------
@@ -2723,8 +2723,8 @@ textures/station15_custom/leave02b		// Solid flat leave
 		map textures/station15_custom_src/leave02b
 		rgbGen vertex
 		depthWrite
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 textures/station15_custom/leave02b_back
@@ -2736,8 +2736,8 @@ textures/station15_custom/leave02b_back
 	{
 		map textures/station15_custom_src/leave02b
 		rgbGen const ( 0.2 0.2 0.2 )
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 // ----------------------------------------------------------------------
@@ -2755,8 +2755,8 @@ textures/station15_custom/leave02c		// Like a lilly with lots of vains
 		map textures/station15_custom_src/leave02c
 		rgbGen vertex
 		depthWrite
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 textures/station15_custom/leave02c_back
@@ -2768,8 +2768,8 @@ textures/station15_custom/leave02c_back
 	{
 		map textures/station15_custom_src/leave02c
 		rgbGen const ( 0.2 0.2 0.2 )
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 // ----------------------------------------------------------------------
@@ -2787,8 +2787,8 @@ textures/station15_custom/leave02d		// Curvy pointy leave
 		map textures/station15_custom_src/leave02d
 		rgbGen vertex
 		depthWrite
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 textures/station15_custom/leave02d_back
@@ -2800,8 +2800,8 @@ textures/station15_custom/leave02d_back
 	{
 		map textures/station15_custom_src/leave02d
 		rgbGen const ( 0.2 0.2 0.2 )
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 // ----------------------------------------------------------------------
@@ -2819,8 +2819,8 @@ textures/station15_custom/leave03a		// Two tone green
 		map textures/station15_custom_src/leave03a
 		rgbGen vertex
 		depthWrite
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 textures/station15_custom/leave03a_back
@@ -2832,8 +2832,8 @@ textures/station15_custom/leave03a_back
 	{
 		map textures/station15_custom_src/leave03a
 		rgbGen const ( 0.2 0.2 0.2 )
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 // ----------------------------------------------------------------------
@@ -2851,8 +2851,8 @@ textures/station15_custom/leave03b		// Green with yellow edges
 		map textures/station15_custom_src/leave03b
 		rgbGen vertex
 		depthWrite
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 textures/station15_custom/leave03b_back
@@ -2864,8 +2864,8 @@ textures/station15_custom/leave03b_back
 	{
 		map textures/station15_custom_src/leave03b
 		rgbGen const ( 0.2 0.2 0.2 )
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 // ----------------------------------------------------------------------
@@ -2883,8 +2883,8 @@ textures/station15_custom/leave03c		// Green with whitish edges
 		map textures/station15_custom_src/leave03c
 		rgbGen vertex
 		depthWrite
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 textures/station15_custom/leave03c_back
@@ -2896,8 +2896,8 @@ textures/station15_custom/leave03c_back
 	{
 		map textures/station15_custom_src/leave03c
 		rgbGen const ( 0.2 0.2 0.2 )
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 // ----------------------------------------------------------------------
@@ -2915,8 +2915,8 @@ textures/station15_custom/leave04c		// Shiney leave
 		map textures/station15_custom_src/leave04c
 		rgbGen vertex
 		depthWrite
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 textures/station15_custom/leave04c_back
@@ -2928,8 +2928,8 @@ textures/station15_custom/leave04c_back
 	{
 		map textures/station15_custom_src/leave04c
 		rgbGen const ( 0.2 0.2 0.2 )
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 // ----------------------------------------------------------------------
@@ -2947,8 +2947,8 @@ textures/station15_custom/leave04d		// Dead shiney leave
 		map textures/station15_custom_src/leave04d
 		rgbGen vertex
 		depthWrite
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 textures/station15_custom/leave04d_back
@@ -2960,8 +2960,8 @@ textures/station15_custom/leave04d_back
 	{
 		map textures/station15_custom_src/leave04d
 		rgbGen const ( 0.2 0.2 0.2 )
-		alphaFunc GE128		
-	}	
+		alphaFunc GE128	
+	}
 }
 
 //Stupid elevator
@@ -2997,9 +2997,9 @@ textures/station15_custom/sign_fan_s
 		rgbGen Identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 }
 
@@ -3017,9 +3017,9 @@ textures/station15_custom/sign_human_s
 		rgbGen Identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/sign_human_g
@@ -3042,9 +3042,9 @@ textures/station15_custom/sign_airlock_s
 		rgbGen Identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/sign_airlock_g
@@ -3067,9 +3067,9 @@ textures/station15_custom/sign_vent_s
 		rgbGen Identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/sign_vent_g
@@ -3093,9 +3093,9 @@ textures/station15_custom/sign_alien_s
 		rgbGen Identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/sign_alien_g
@@ -3118,9 +3118,9 @@ textures/station15_custom/sign_cargo_s
 		rgbGen Identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/sign_cargo_g
@@ -3143,15 +3143,15 @@ textures/station15_custom/sign_cargo_airlock_s
 		rgbGen Identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/sign_cargo_airlock_g
 		rgbGen const ( 0.5 0.6 0.65 )
 		blendfunc add
-	}	
+	}
 }
 
 textures/station15_custom/sign_appreciation_s
@@ -3168,15 +3168,15 @@ textures/station15_custom/sign_appreciation_s
 		rgbGen Identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/sign_appreciation_g
 		rgbGen const ( 0.5 0.6 0.65 )
 		blendfunc add
-	}	
+	}
 }
 
 
@@ -3194,15 +3194,15 @@ textures/station15_custom/sign_furnace_s
 		rgbGen Identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/sign_furnace_g
 		rgbGen const ( 0.5 0.6 0.65 )
 		blendfunc add
-	}	
+	}
 }
 
 textures/station15_custom/sign_garden_s
@@ -3219,15 +3219,15 @@ textures/station15_custom/sign_garden_s
 		rgbGen Identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/sign_garden_g
 		rgbGen const ( 0.5 0.6 0.65 )
 		blendfunc add
-	}	
+	}
 }
 
 textures/station15_custom/sign_pipe_s
@@ -3244,15 +3244,15 @@ textures/station15_custom/sign_pipe_s
 		rgbGen Identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/sign_pipe_g
 		rgbGen const ( 0.5 0.6 0.65 )
 		blendfunc add
-	}	
+	}
 }
 
 textures/station15_custom/sign_arrow_left_s
@@ -3269,15 +3269,15 @@ textures/station15_custom/sign_arrow_left_s
 		rgbGen Identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
-	}	
+		tcGen lightmap
+	}
 	{
 		map textures/station15_custom_src/sign_arrow_left_g
 		rgbGen const ( 0.5 0.6 0.65 )
 		blendfunc add
-	}	
+	}
 }
 
 textures/station15_custom/sign_arrow_right_s
@@ -3294,9 +3294,9 @@ textures/station15_custom/sign_arrow_right_s
 		rgbGen Identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/sign_arrow_right_g
@@ -3305,7 +3305,7 @@ textures/station15_custom/sign_arrow_right_s
 
 		rgbGen const ( 0.5 0.6 0.65 )
 		blendfunc add
-	}	
+	}
 }
 
 
@@ -3323,15 +3323,15 @@ textures/station15_custom/sign_arrow_up_s
 		rgbGen Identity
 	}
 	{
-		map $lightmap 
+		map $lightmap
 		blendfunc filter
-		tcGen lightmap 
+		tcGen lightmap
 	}
 	{
 		map textures/station15_custom_src/sign_arrow_up_g
 		rgbGen const ( 0.5 0.6 0.65 )
 		blendfunc add
-	}	
+	}
 }
 
 textures/station15_custom/ubase5_e
@@ -3382,12 +3382,12 @@ qer_editorimage textures/station15_custom_src/controlpanel2
 
 textures/station15_custom/blackfog
 {
-qer_nocarve
-  surfaceparm trans
-  surfaceparm nonsolid
-  surfaceparm nolightmap
-  surfaceparm fog
-fogparms ( 0 0 0 ) 512
+	qer_nocarve
+	surfaceparm trans
+	surfaceparm nonsolid
+	surfaceparm nolightmap
+	surfaceparm fog
+	fogparms ( 0 0 0 ) 512
 }
 
 textures/station15_custom/e6bmetal_e
@@ -3491,7 +3491,7 @@ textures/station15_custom/water2
 	cull disable
 	tesssize 64
 	deformVertexes wave 64 sin 0.8 1.5 2 .8
-	
+
 	{
 		map textures/station15_custom_src/water
 		rgbGen const ( 0.8 0.8 0.3 )
