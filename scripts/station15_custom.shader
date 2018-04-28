@@ -2200,80 +2200,11 @@ textures/station15_custom/terrain1
 	}
 }
 
-// ======================================================================
-// alpha fade shaders
-// (c) 2004 randy reddig
-// http://www.shaderlab.com
-// distribution, in part or in whole, in any medium, permitted
-// ======================================================================
-//
-// These shaders are not fixed to this directory location, they can
-// be moved around. They exist here for convenience only.
-//
-textures/station15_custom/alpha_000	// Primary texture ONLY
-{
-	q3map_alphaMod volume
-	q3map_alphaMod set 0
-	surfaceparm nodraw
-	surfaceparm nonsolid
-	surfaceparm trans
-	qer_trans 0.75
-}
-
-textures/station15_custom/alpha_025
-{
-	q3map_alphaMod volume
-	q3map_alphaMod set 0.25
-	surfaceparm nodraw
-	surfaceparm nonsolid
-	surfaceparm trans
-	qer_trans 0.75
-}
-
-textures/station15_custom/alpha_050	// Perfect mix of both Primary + Secondary
-{
-	q3map_alphaMod volume
-	q3map_alphaMod set 0.50
-	surfaceparm nodraw
-	surfaceparm nonsolid
-	surfaceparm trans
-	qer_trans 0.75
-}
-
-textures/station15_custom/alpha_075
-{
-	q3map_alphaMod volume
-	q3map_alphaMod set 0.75
-	surfaceparm nodraw
-	surfaceparm nonsolid
-	surfaceparm trans
-	qer_trans 0.75
-}
-
-textures/station15_custom/alpha_085
-{
-	q3map_alphaMod volume
-	q3map_alphaMod set 0.85
-	surfaceparm nodraw
-	surfaceparm nonsolid
-	surfaceparm trans
-	qer_trans 0.75
-}
-
-textures/station15_custom/alpha_100	// Secondary texture ONLY
-{
-	q3map_alphaMod volume
-	q3map_alphaMod set 1.0
-	surfaceparm nodraw
-	surfaceparm nonsolid
-	surfaceparm trans
-	qer_trans 0.75
-}
 
 //Crappy water
 textures/station15_custom/water
 {
-qer_editorimage textures/station15_custom_src/water.tga
+	qer_editorimage textures/station15_custom_src/water.tga
 	qer_trans .4
 	q3map_globaltexture
 	entityMergable
@@ -2320,7 +2251,7 @@ qer_editorimage textures/station15_custom_src/water.tga
 //Crappy water spout
 textures/station15_custom/waterspout
 {
-qer_editorimage textures/station15_custom_src/water.tga
+	qer_editorimage textures/station15_custom_src/water.tga
 	qer_trans .4
 	q3map_globaltexture
 	entityMergable
