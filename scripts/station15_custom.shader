@@ -3588,7 +3588,7 @@ textures/station15_custom/water2
 textures/station15_custom/sun_s
 {
 	qer_editorimage textures/station15_custom_src/sun.jpg
-	surfaceparm nolightmaps
+	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nonsolid
 	surfaceparm trans
