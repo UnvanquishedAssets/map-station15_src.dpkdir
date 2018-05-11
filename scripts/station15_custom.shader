@@ -9,7 +9,7 @@ textures/station15_custom/door1
 
 	diffuseMap textures/station15_custom_src/door1
 	normalMap textures/station15_custom_src/door1_n
-	glowMap textures/station15_custom_src/door1_g
+	glowMap textures/station15_custom_src/door1_a
 }
 
 textures/station15_custom/door1_locked
@@ -18,13 +18,13 @@ textures/station15_custom/door1_locked
 
 	diffuseMap textures/station15_custom_src/door1_locked
 	normalMap textures/station15_custom_src/door1_n
-	glowMap textures/station15_custom_src/door1_locked_g
+	glowMap textures/station15_custom_src/door1_locked_a
 }
 
 textures/station15_custom/u_trlightline3
 {
 	qer_editorimage textures/station15_custom_src/u_trlightline3
-	q3map_lightimage textures/station15_custom_src/u_trlightline_g
+	q3map_lightimage textures/station15_custom_src/u_trlightline_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_lightsubdivide 128
@@ -39,7 +39,7 @@ textures/station15_custom/u_trlightline3
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_trlightline_g
+		map textures/station15_custom_src/u_trlightline_a
 		blendfunc gl_dst_color gl_one
 		rgbGen wave sawtooth 0.6 0.1 0 7
 	}
@@ -48,7 +48,7 @@ textures/station15_custom/u_trlightline3
 textures/station15_custom/u_trlightline2_or
 {
 	qer_editorimage textures/station15_custom_src/u_trlightline2_or
-	q3map_lightimage textures/station15_custom_src/u_trlightline2_or_g
+	q3map_lightimage textures/station15_custom_src/u_trlightline2_or_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_lightsubdivide 128
@@ -63,7 +63,7 @@ textures/station15_custom/u_trlightline2_or
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_trlightline2_or_g
+		map textures/station15_custom_src/u_trlightline2_or_a
 		blendfunc add
 		rgbGen wave sawtooth 0.7 0.1 0 7
 	}
@@ -72,7 +72,7 @@ textures/station15_custom/u_trlightline2_or
 textures/station15_custom/u_trlightline_or
 {
 	qer_editorimage textures/station15_custom_src/u_trlightline_or
-	q3map_lightimage textures/station15_custom_src/u_trlightline2_or_g
+	q3map_lightimage textures/station15_custom_src/u_trlightline2_or_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_lightsubdivide 128
@@ -87,7 +87,7 @@ textures/station15_custom/u_trlightline_or
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_trlightline2_or_g
+		map textures/station15_custom_src/u_trlightline2_or_a
 		blendfunc add
 		rgbGen wave sawtooth 0.6 0.1 0 7
 	}
@@ -96,7 +96,7 @@ textures/station15_custom/u_trlightline_or
 textures/station15_custom/u_trlightline_blue
 {
 	qer_editorimage textures/station15_custom_src/u_trlightline_blue
-	q3map_lightimage textures/station15_custom_src/u_trlightline_blue_g
+	q3map_lightimage textures/station15_custom_src/u_trlightline_blue_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_lightsubdivide 128
@@ -111,7 +111,7 @@ textures/station15_custom/u_trlightline_blue
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_trlightline_blue_g
+		map textures/station15_custom_src/u_trlightline_blue_a
 		blendfunc add
 		rgbGen wave sawtooth 0.6 0.1 0 7
 	}
@@ -120,7 +120,7 @@ textures/station15_custom/u_trlightline_blue
 textures/station15_custom/u_trlightline
 {
 	qer_editorimage textures/station15_custom_src/u_trlightline
-	q3map_lightimage textures/station15_custom_src/u_trlightline_g
+	q3map_lightimage textures/station15_custom_src/u_trlightline_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_lightsubdivide 128
@@ -135,7 +135,7 @@ textures/station15_custom/u_trlightline
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_trlightline_g
+		map textures/station15_custom_src/u_trlightline_a
 		blendfunc add
 		rgbGen wave sawtooth 0.6 0.1 0 7
 	}
@@ -144,7 +144,7 @@ textures/station15_custom/u_trlightline
 textures/station15_custom/u_lamp1
 {
 	qer_editorimage textures/station15_custom_src/u_lamp1
-	q3map_lightimage textures/station15_custom_src/u_lamp_g
+	q3map_lightimage textures/station15_custom_src/u_lamp_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_surfacelight 2200
@@ -158,7 +158,7 @@ textures/station15_custom/u_lamp1
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamp_g
+		map textures/station15_custom_src/u_lamp_a
 		blendfunc gl_one_minus_dst_color gl_one
 	}
 }
@@ -166,7 +166,7 @@ textures/station15_custom/u_lamp1
 textures/station15_custom/u_lamp1b
 {
 	qer_editorimage textures/station15_custom_src/u_lamp1b
-	q3map_lightimage textures/station15_custom_src/u_lamp_g
+	q3map_lightimage textures/station15_custom_src/u_lamp_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_surfacelight 2200
@@ -180,7 +180,7 @@ textures/station15_custom/u_lamp1b
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamp_g
+		map textures/station15_custom_src/u_lamp_a
 		blendfunc gl_one_minus_dst_color gl_one
 	}
 }
@@ -188,7 +188,7 @@ textures/station15_custom/u_lamp1b
 textures/station15_custom/u_lamp2
 {
 	qer_editorimage textures/station15_custom_src/u_lamp2
-	q3map_lightimage textures/station15_custom_src/u_lamp_g
+	q3map_lightimage textures/station15_custom_src/u_lamp_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_surfacelight 2200
@@ -202,7 +202,7 @@ textures/station15_custom/u_lamp2
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamp_g
+		map textures/station15_custom_src/u_lamp_a
 		blendfunc add
 		tcMod rotate 33
 	}
@@ -211,7 +211,7 @@ textures/station15_custom/u_lamp2
 textures/station15_custom/u_lamp2_64
 {
 	qer_editorimage textures/station15_custom_src/u_lamp2_64
-	q3map_lightimage textures/station15_custom_src/u_lamp2_64_g
+	q3map_lightimage textures/station15_custom_src/u_lamp2_64_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_surfacelight 2200
@@ -225,7 +225,7 @@ textures/station15_custom/u_lamp2_64
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamp2_64_g
+		map textures/station15_custom_src/u_lamp2_64_a
 		blendfunc gl_one_minus_dst_color gl_one
 	}
 }
@@ -233,7 +233,7 @@ textures/station15_custom/u_lamp2_64
 textures/station15_custom/u_lamp1_64
 {
 	qer_editorimage textures/station15_custom_src/u_lamp1_64
-	q3map_lightimage textures/station15_custom_src/u_lamp2_64_g
+	q3map_lightimage textures/station15_custom_src/u_lamp2_64_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_surfacelight 2200
@@ -247,7 +247,7 @@ textures/station15_custom/u_lamp1_64
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamp2_64_g
+		map textures/station15_custom_src/u_lamp2_64_a
 		blendfunc gl_dst_color gl_one
 		rgbGen wave noise 0.7 0.3 13 1
 	}
@@ -256,7 +256,7 @@ textures/station15_custom/u_lamp1_64
 textures/station15_custom/u_lamp3
 {
 	qer_editorimage textures/station15_custom_src/u_lamp3
-	q3map_lightimage textures/station15_custom_src/u_lamp3_g
+	q3map_lightimage textures/station15_custom_src/u_lamp3_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_surfacelight 2000
@@ -270,7 +270,7 @@ textures/station15_custom/u_lamp3
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamp3_g
+		map textures/station15_custom_src/u_lamp3_a
 		blendfunc gl_one_minus_dst_color gl_one
 	}
 }
@@ -278,7 +278,7 @@ textures/station15_custom/u_lamp3
 textures/station15_custom/u_lamp3_blue
 {
 	qer_editorimage textures/station15_custom_src/u_lamp3_blue
-	q3map_lightimage textures/station15_custom_src/u_lamp3_blue_g
+	q3map_lightimage textures/station15_custom_src/u_lamp3_blue_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_surfacelight 2000
@@ -292,7 +292,7 @@ textures/station15_custom/u_lamp3_blue
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamp3_blue_g
+		map textures/station15_custom_src/u_lamp3_blue_a
 		blendfunc gl_one_minus_dst_color gl_one
 	}
 }
@@ -300,7 +300,7 @@ textures/station15_custom/u_lamp3_blue
 textures/station15_custom/u_lamp3_or
 {
 	qer_editorimage textures/station15_custom_src/u_lamp3_or
-	q3map_lightimage textures/station15_custom_src/u_lamp3_or_g
+	q3map_lightimage textures/station15_custom_src/u_lamp3_or_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_surfacelight 2000
@@ -314,7 +314,7 @@ textures/station15_custom/u_lamp3_or
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamp3_or_g
+		map textures/station15_custom_src/u_lamp3_or_a
 		blendfunc gl_one_minus_dst_color gl_one
 	}
 }
@@ -322,7 +322,7 @@ textures/station15_custom/u_lamp3_or
 textures/station15_custom/u_lamp4
 {
 	qer_editorimage textures/station15_custom_src/u_lamp4
-	q3map_lightimage textures/station15_custom_src/u_lamp4_g
+	q3map_lightimage textures/station15_custom_src/u_lamp4_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_surfacelight 8000
@@ -336,7 +336,7 @@ textures/station15_custom/u_lamp4
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamp4_g
+		map textures/station15_custom_src/u_lamp4_a
 		blendfunc gl_one_minus_dst_color gl_one
 	}
 }
@@ -344,7 +344,7 @@ textures/station15_custom/u_lamp4
 textures/station15_custom/u_lamp4_or
 {
 	qer_editorimage textures/station15_custom_src/u_lamp4_or
-	q3map_lightimage textures/station15_custom_src/u_lamp4_or_g
+	q3map_lightimage textures/station15_custom_src/u_lamp4_or_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_surfacelight 8000
@@ -358,7 +358,7 @@ textures/station15_custom/u_lamp4_or
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamp4_or_g
+		map textures/station15_custom_src/u_lamp4_or_a
 		blendfunc gl_one_minus_dst_color gl_one
 	}
 }
@@ -366,7 +366,7 @@ textures/station15_custom/u_lamp4_or
 textures/station15_custom/u_lamp4_or_2k
 {
 	qer_editorimage textures/station15_custom_src/u_lamp4_or
-	q3map_lightimage textures/station15_custom_src/u_lamp4_or_g
+	q3map_lightimage textures/station15_custom_src/u_lamp4_or_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_surfacelight 2000
@@ -380,7 +380,7 @@ textures/station15_custom/u_lamp4_or_2k
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamp4_or_g
+		map textures/station15_custom_src/u_lamp4_or_a
 		blendfunc gl_one_minus_dst_color gl_one
 	}
 }
@@ -388,7 +388,7 @@ textures/station15_custom/u_lamp4_or_2k
 textures/station15_custom/u_lamp4_blue
 {
 	qer_editorimage textures/station15_custom_src/u_lamp4_blue
-	q3map_lightimage textures/station15_custom_src/u_lamp4_blue_g
+	q3map_lightimage textures/station15_custom_src/u_lamp4_blue_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_surfacelight 8000
@@ -402,7 +402,7 @@ textures/station15_custom/u_lamp4_blue
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamp4_blue_g
+		map textures/station15_custom_src/u_lamp4_blue_a
 		blendfunc gl_one_minus_dst_color gl_one
 	}
 }
@@ -410,7 +410,7 @@ textures/station15_custom/u_lamp4_blue
 textures/station15_custom/u_lamp5_blue
 {
 	qer_editorimage textures/station15_custom_src/u_lamp5_blue
-	q3map_lightimage textures/station15_custom_src/u_lamp5_blue_g
+	q3map_lightimage textures/station15_custom_src/u_lamp5_blue_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_surfacelight 5000
@@ -424,7 +424,7 @@ textures/station15_custom/u_lamp5_blue
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamp5_blue_g
+		map textures/station15_custom_src/u_lamp5_blue_a
 		blendfunc gl_one_minus_dst_color gl_one
 	}
 }
@@ -446,7 +446,7 @@ textures/station15_custom/u_lamp5_blue_flashing
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamp5_blue_g
+		map textures/station15_custom_src/u_lamp5_blue_a
 		rgbGen wave sin 0.7 0.4 0 1.5
 		blendfunc gl_one_minus_dst_color gl_one
 	}
@@ -455,7 +455,7 @@ textures/station15_custom/u_lamp5_blue_flashing
 textures/station15_custom/u_lamp5
 {
 	qer_editorimage textures/station15_custom_src/u_lamp5
-	q3map_lightimage textures/station15_custom_src/u_lamp5_g
+	q3map_lightimage textures/station15_custom_src/u_lamp5_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_surfacelight 4000
@@ -469,7 +469,7 @@ textures/station15_custom/u_lamp5
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamp5_g
+		map textures/station15_custom_src/u_lamp5_a
 		blendfunc gl_one_minus_dst_color gl_one
 	}
 }
@@ -477,7 +477,7 @@ textures/station15_custom/u_lamp5
 textures/station15_custom/u_lamp5_or
 {
 	qer_editorimage textures/station15_custom_src/u_lamp5_or
-	q3map_lightimage textures/station15_custom_src/u_lamp5_or_g
+	q3map_lightimage textures/station15_custom_src/u_lamp5_or_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_surfacelight 4000
@@ -491,7 +491,7 @@ textures/station15_custom/u_lamp5_or
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamp5_or_g
+		map textures/station15_custom_src/u_lamp5_or_a
 		blendfunc gl_one_minus_dst_color gl_one
 		rgbGen wave sin 0.92 0.03 0 8
 	}
@@ -500,7 +500,7 @@ textures/station15_custom/u_lamp5_or
 textures/station15_custom/u_lamp5_p
 {
 	qer_editorimage textures/station15_custom_src/u_lamp5_p
-	q3map_lightimage textures/station15_custom_src/u_lamp5_p_g
+	q3map_lightimage textures/station15_custom_src/u_lamp5_p_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_surfacelight 3000
@@ -514,7 +514,7 @@ textures/station15_custom/u_lamp5_p
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamp5_p_g
+		map textures/station15_custom_src/u_lamp5_p_a
 		blendfunc gl_one_minus_dst_color gl_one
 		rgbGen wave sin 0.9 0.03 0 8
 	}
@@ -523,7 +523,7 @@ textures/station15_custom/u_lamp5_p
 textures/station15_custom/u_lamp7
 {
 	qer_editorimage textures/station15_custom_src/u_lamp7
-	q3map_lightimage textures/station15_custom_src/u_lamp7_g
+	q3map_lightimage textures/station15_custom_src/u_lamp7_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_surfacelight 3300
@@ -537,7 +537,7 @@ textures/station15_custom/u_lamp7
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamp7_g
+		map textures/station15_custom_src/u_lamp7_a
 		blendfunc add
 		rgbGen wave sin 0.92 0.03 0 8
 	}
@@ -546,7 +546,7 @@ textures/station15_custom/u_lamp7
 textures/station15_custom/u_lamp7_blue
 {
 	qer_editorimage textures/station15_custom_src/u_lamp7_blue
-	q3map_lightimage textures/station15_custom_src/u_lamp7_blue_g
+	q3map_lightimage textures/station15_custom_src/u_lamp7_blue_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_surfacelight 3300
@@ -560,7 +560,7 @@ textures/station15_custom/u_lamp7_blue
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamp7_blue_g
+		map textures/station15_custom_src/u_lamp7_blue_a
 		blendfunc add
 		rgbGen wave sin 0.9 0.05 0 5
 	}
@@ -569,7 +569,7 @@ textures/station15_custom/u_lamp7_blue
 textures/station15_custom/u_lamplong1b
 {
 	qer_editorimage textures/station15_custom_src/u_lamplong1b
-	q3map_lightimage textures/station15_custom_src/u_lamplong1_g
+	q3map_lightimage textures/station15_custom_src/u_lamplong1_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_surfacelight 3100
@@ -583,7 +583,7 @@ textures/station15_custom/u_lamplong1b
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamplong1_g
+		map textures/station15_custom_src/u_lamplong1_a
 		blendfunc add
 		rgbGen wave sin 0.93 0.04 0 5
 	}
@@ -592,7 +592,7 @@ textures/station15_custom/u_lamplong1b
 textures/station15_custom/u_lamplong1
 {
 	qer_editorimage textures/station15_custom_src/u_lamplong1
-	q3map_lightimage textures/station15_custom_src/u_lamplong1_g
+	q3map_lightimage textures/station15_custom_src/u_lamplong1_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_surfacelight 3100
@@ -606,7 +606,7 @@ textures/station15_custom/u_lamplong1
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamplong1_g
+		map textures/station15_custom_src/u_lamplong1_a
 		blendfunc add
 		rgbGen wave sin 0.93 0.04 0 5
 	}
@@ -615,7 +615,7 @@ textures/station15_custom/u_lamplong1
 textures/station15_custom/u_lamplong1_blue
 {
 	qer_editorimage textures/station15_custom_src/u_lamplong1_blue
-	q3map_lightimage textures/station15_custom_src/u_lamplong1_blue_g
+	q3map_lightimage textures/station15_custom_src/u_lamplong1_blue_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_surfacelight 3000
@@ -629,7 +629,7 @@ textures/station15_custom/u_lamplong1_blue
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamplong1_blue_g
+		map textures/station15_custom_src/u_lamplong1_blue_a
 		blendfunc gl_one_minus_dst_color gl_one
 		rgbGen wave sin 0.9 0.2 0 0.3
 	}
@@ -638,7 +638,7 @@ textures/station15_custom/u_lamplong1_blue
 textures/station15_custom/u_lamplong1_gr
 {
 	qer_editorimage textures/station15_custom_src/u_lamplong1_gr
-	q3map_lightimage textures/station15_custom_src/u_lamplong1_gr_g
+	q3map_lightimage textures/station15_custom_src/u_lamplong1_gr_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_surfacelight 3000
@@ -652,7 +652,7 @@ textures/station15_custom/u_lamplong1_gr
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamplong1_gr_g
+		map textures/station15_custom_src/u_lamplong1_gr_a
 		blendfunc gl_one_minus_dst_color gl_one
 		rgbGen wave sin 0.9 0.09 0 1
 	}
@@ -661,7 +661,7 @@ textures/station15_custom/u_lamplong1_gr
 textures/station15_custom/u_lamplong1_or
 {
 	qer_editorimage textures/station15_custom_src/u_lamplong1_or
-	q3map_lightimage textures/station15_custom_src/u_lamplong1_or_g
+	q3map_lightimage textures/station15_custom_src/u_lamplong1_or_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_surfacelight 4000
@@ -675,7 +675,7 @@ textures/station15_custom/u_lamplong1_or
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamplong1_or_g
+		map textures/station15_custom_src/u_lamplong1_or_a
 		blendfunc gl_one_minus_dst_color gl_one
 		rgbGen wave sin 0.9 0.09 0 1
 	}
@@ -684,7 +684,7 @@ textures/station15_custom/u_lamplong1_or
 textures/station15_custom/u_thinline1
 {
 	qer_editorimage textures/station15_custom_src/u_thinline1
-	q3map_lightimage textures/station15_custom_src/u_thinline1_g
+	q3map_lightimage textures/station15_custom_src/u_thinline1_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_lightsubdivide 128
@@ -699,7 +699,7 @@ textures/station15_custom/u_thinline1
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_thinline1_g
+		map textures/station15_custom_src/u_thinline1_a
 		blendfunc gl_dst_color gl_one
 		rgbGen wave sawtooth 0.8 0.1 0 7
 	}
@@ -708,7 +708,7 @@ textures/station15_custom/u_thinline1
 textures/station15_custom/u_thinline1_blue
 {
 	qer_editorimage textures/station15_custom_src/u_thinline1_blue
-	q3map_lightimage textures/station15_custom_src/u_thinline1_blue_g
+	q3map_lightimage textures/station15_custom_src/u_thinline1_blue_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_lightsubdivide 128
@@ -723,7 +723,7 @@ textures/station15_custom/u_thinline1_blue
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_thinline1_blue_g
+		map textures/station15_custom_src/u_thinline1_blue_a
 		blendfunc gl_dst_color gl_one
 		rgbGen wave sawtooth 0.7 0.1 0 7
 	}
@@ -732,7 +732,7 @@ textures/station15_custom/u_thinline1_blue
 textures/station15_custom/u_thinline1_or
 {
 	qer_editorimage textures/station15_custom_src/u_thinline1_or
-	q3map_lightimage textures/station15_custom_src/u_thinline1_or_g
+	q3map_lightimage textures/station15_custom_src/u_thinline1_or_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_lightsubdivide 128
@@ -747,7 +747,7 @@ textures/station15_custom/u_thinline1_or
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_thinline1_or_g
+		map textures/station15_custom_src/u_thinline1_or_a
 		blendfunc gl_dst_color gl_one
 		rgbGen wave sawtooth 0.7 0.1 0 7
 	}
@@ -756,7 +756,7 @@ textures/station15_custom/u_thinline1_or
 textures/station15_custom/u_thinline2_or
 {
 	qer_editorimage textures/station15_custom_src/u_thinline2_or
-	q3map_lightimage textures/station15_custom_src/u_thinline1_or_g
+	q3map_lightimage textures/station15_custom_src/u_thinline1_or_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_lightsubdivide 128
@@ -771,7 +771,7 @@ textures/station15_custom/u_thinline2_or
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_thinline1_or_g
+		map textures/station15_custom_src/u_thinline1_or_a
 		blendfunc gl_dst_color gl_one
 		rgbGen wave sawtooth 0.8 0.1 0 7
 	}
@@ -780,7 +780,7 @@ textures/station15_custom/u_thinline2_or
 textures/station15_custom/u_thinline2
 {
 	qer_editorimage textures/station15_custom_src/u_thinline2
-	q3map_lightimage textures/station15_custom_src/u_thinline1_g
+	q3map_lightimage textures/station15_custom_src/u_thinline1_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_lightsubdivide 128
@@ -795,7 +795,7 @@ textures/station15_custom/u_thinline2
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_thinline1_g
+		map textures/station15_custom_src/u_thinline1_a
 		blendfunc gl_dst_color gl_one
 		rgbGen wave sawtooth 0.8 0.1 0 7
 	}
@@ -804,7 +804,7 @@ textures/station15_custom/u_thinline2
 textures/station15_custom/u_trlight1
 {
 	qer_editorimage textures/station15_custom_src/u_trlight1
-	q3map_lightimage textures/station15_custom_src/u_trlight1_g
+	q3map_lightimage textures/station15_custom_src/u_trlight1_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_lightsubdivide 128
@@ -819,7 +819,7 @@ textures/station15_custom/u_trlight1
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_trlight1_g
+		map textures/station15_custom_src/u_trlight1_a
 		blendfunc add
 		rgbGen wave sawtooth 0.6 0.1 0 7
 	}
@@ -828,7 +828,7 @@ textures/station15_custom/u_trlight1
 textures/station15_custom/u_trlight2
 {
 	qer_editorimage textures/station15_custom_src/u_trlight2
-	q3map_lightimage textures/station15_custom_src/u_trlight1_g
+	q3map_lightimage textures/station15_custom_src/u_trlight1_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_lightsubdivide 128
@@ -843,7 +843,7 @@ textures/station15_custom/u_trlight2
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_trlight1_g
+		map textures/station15_custom_src/u_trlight1_a
 		blendfunc gl_dst_color gl_one
 		rgbGen wave sawtooth 0.9 0.2 0 7
 	}
@@ -852,7 +852,7 @@ textures/station15_custom/u_trlight2
 textures/station15_custom/u_trlight2_or
 {
 	qer_editorimage textures/station15_custom_src/u_trlight2_or
-	q3map_lightimage textures/station15_custom_src/u_trlight2_or_g
+	q3map_lightimage textures/station15_custom_src/u_trlight2_or_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_lightsubdivide 128
@@ -867,7 +867,7 @@ textures/station15_custom/u_trlight2_or
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_trlight2_or_g
+		map textures/station15_custom_src/u_trlight2_or_a
 		blendfunc gl_one_minus_dst_color gl_one
 		rgbGen wave sawtooth 0.77 0.1 0 7
 	}
@@ -876,7 +876,7 @@ textures/station15_custom/u_trlight2_or
 textures/station15_custom/u_trlight3
 {
 	qer_editorimage textures/station15_custom_src/u_trlight3
-	q3map_lightimage textures/station15_custom_src/u_trlight1_g
+	q3map_lightimage textures/station15_custom_src/u_trlight1_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_lightsubdivide 128
@@ -891,7 +891,7 @@ textures/station15_custom/u_trlight3
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_trlight1_g
+		map textures/station15_custom_src/u_trlight1_a
 		blendfunc add
 		rgbGen wave sawtooth 0.6 0.1 0 7
 	}
@@ -900,7 +900,7 @@ textures/station15_custom/u_trlight3
 textures/station15_custom/u_trlight3_blue
 {
 	qer_editorimage textures/station15_custom_src/u_trlight3_blue
-	q3map_lightimage textures/station15_custom_src/u_trlight3_blue_g
+	q3map_lightimage textures/station15_custom_src/u_trlight3_blue_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_lightsubdivide 128
@@ -915,7 +915,7 @@ textures/station15_custom/u_trlight3_blue
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_trlight3_blue_g
+		map textures/station15_custom_src/u_trlight3_blue_a
 		blendfunc gl_one_minus_dst_color gl_one
 		rgbGen wave sawtooth 0.9 0.2 0 7
 	}
@@ -924,7 +924,7 @@ textures/station15_custom/u_trlight3_blue
 textures/station15_custom/u_py1_or_2
 {
 	qer_editorimage textures/station15_custom_src/u_py1_or_2
-	q3map_lightimage textures/station15_custom_src/u_py1_or_g
+	q3map_lightimage textures/station15_custom_src/u_py1_or_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_lightsubdivide 128
@@ -939,7 +939,7 @@ textures/station15_custom/u_py1_or_2
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_py1_or_g
+		map textures/station15_custom_src/u_py1_or_a
 		blendfunc add
 		rgbGen wave sin 0.4 0.4 2 0.2
 	}
@@ -948,7 +948,7 @@ textures/station15_custom/u_py1_or_2
 textures/station15_custom/u_py1_or
 {
 	qer_editorimage textures/station15_custom_src/u_py1_or
-	q3map_lightimage textures/station15_custom_src/u_py1_or_g
+	q3map_lightimage textures/station15_custom_src/u_py1_or_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_lightsubdivide 128
@@ -963,7 +963,7 @@ textures/station15_custom/u_py1_or
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_py1_or_g
+		map textures/station15_custom_src/u_py1_or_a
 		blendfunc add
 		rgbGen wave sin 0.5 0.4 0 0.25
 	}
@@ -972,7 +972,7 @@ textures/station15_custom/u_py1_or
 textures/station15_custom/u_py1_or128
 {
 	qer_editorimage textures/station15_custom_src/u_py1_or128
-	q3map_lightimage textures/station15_custom_src/u_py1_or_g
+	q3map_lightimage textures/station15_custom_src/u_py1_or_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_lightsubdivide 128
@@ -987,7 +987,7 @@ textures/station15_custom/u_py1_or128
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_py1_or_g
+		map textures/station15_custom_src/u_py1_or_a
 		blendfunc add
 		rgbGen wave sin 0.8 0.2 0 0.5
 	}
@@ -996,7 +996,7 @@ textures/station15_custom/u_py1_or128
 textures/station15_custom/u_py1_blue
 {
 	qer_editorimage textures/station15_custom_src/u_py1_blue
-	q3map_lightimage textures/station15_custom_src/u_lamp_g
+	q3map_lightimage textures/station15_custom_src/u_lamp_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_lightsubdivide 128
@@ -1011,7 +1011,7 @@ textures/station15_custom/u_py1_blue
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamp_g
+		map textures/station15_custom_src/u_lamp_a
 		blendfunc gl_one_minus_dst_color gl_one
 		rgbGen wave triangle 0.5 0.4 0 225
 		tcMod stretch sin 1.5 0.1 0 12
@@ -1115,7 +1115,7 @@ textures/station15_custom/u_floor_mark_blue
 textures/station15_custom/u_floor_des_pad_7
 {
 	qer_editorimage textures/station15_custom_src/u_floor_des_pad_7
-	q3map_lightimage textures/station15_custom_src/u_floor_pan4_l_g
+	q3map_lightimage textures/station15_custom_src/u_floor_pan4_l_a
 	surfaceparm nodamage
 	q3map_surfacelight 150
 	{
@@ -1129,7 +1129,7 @@ textures/station15_custom/u_floor_des_pad_7
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_floor_pan4_l_g
+		map textures/station15_custom_src/u_floor_pan4_l_a
 		blendfunc add
 		rgbGen wave sin 0.6 0.2 0 2
 		tcMod stretch sin 2.5 1 0 1
@@ -1140,7 +1140,7 @@ textures/station15_custom/u_floor_des_pad_7
 textures/station15_custom/u_floor_pad1_or
 {
 	qer_editorimage textures/station15_custom_src/u_floor_pad1
-	q3map_lightimage textures/station15_custom_src/u_floor_pad1_g
+	q3map_lightimage textures/station15_custom_src/u_floor_pad1_a
 	surfaceparm nodamage
 	q3map_surfacelight 150
 	{
@@ -1154,7 +1154,7 @@ textures/station15_custom/u_floor_pad1_or
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_floor_pad1_g
+		map textures/station15_custom_src/u_floor_pad1_a
 		blendfunc add
 		rgbGen wave triangle 0.5 0.4 3434 1
 		tcMod stretch sin 1 0.01 0 1
@@ -1188,7 +1188,7 @@ textures/station15_custom/u_floor_pad1_b
 textures/station15_custom/u_floor3_pad_7b
 {
 	qer_editorimage textures/station15_custom_src/u_floor3_pad_7b
-	q3map_lightimage textures/station15_custom_src/u_floor_pan4_l_g
+	q3map_lightimage textures/station15_custom_src/u_floor_pan4_l_a
 	surfaceparm nodamage
 	q3map_surfacelight 150
 	{
@@ -1202,7 +1202,7 @@ textures/station15_custom/u_floor3_pad_7b
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_floor_pan4_l_g
+		map textures/station15_custom_src/u_floor_pan4_l_a
 		blendfunc add
 		rgbGen wave sin 0.6 0.2 0 2
 		tcMod stretch sin 2.5 1 0 1
@@ -1213,7 +1213,7 @@ textures/station15_custom/u_floor3_pad_7b
 textures/station15_custom/u_floor3_pad_6
 {
 	qer_editorimage textures/station15_custom_src/u_floor3_pad_6
-	q3map_lightimage textures/station15_custom_src/u_floor_pan4_l_g
+	q3map_lightimage textures/station15_custom_src/u_floor_pan4_l_a
 	surfaceparm nodamage
 	q3map_surfacelight 150
 	{
@@ -1227,7 +1227,7 @@ textures/station15_custom/u_floor3_pad_6
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_floor_pan4_l_g
+		map textures/station15_custom_src/u_floor_pan4_l_a
 		blendfunc add
 		rgbGen const ( 1 0.345098 0.0352941 )
 		tcMod stretch sin 1.4 0.6 0 1
@@ -1237,7 +1237,7 @@ textures/station15_custom/u_floor3_pad_6
 textures/station15_custom/u_floor3_pad_6b
 {
 	qer_editorimage textures/station15_custom_src/u_floor3_pad_6
-	q3map_lightimage textures/station15_custom_src/u_floor_pan4_l_g
+	q3map_lightimage textures/station15_custom_src/u_floor_pan4_l_a
 	surfaceparm nodamage
 	q3map_surfacelight 150
 	{
@@ -1251,7 +1251,7 @@ textures/station15_custom/u_floor3_pad_6b
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_floor_pan4_l_g
+		map textures/station15_custom_src/u_floor_pan4_l_a
 		blendfunc add
 		rgbGen const ( 0.0156863 0.537255 0.756863 )
 		tcMod stretch sin 1.4 0.6 0 1
@@ -1261,7 +1261,7 @@ textures/station15_custom/u_floor3_pad_6b
 textures/station15_custom/u_floor3_pad_8
 {
 	qer_editorimage textures/station15_custom_src/u_floor3_pad_8
-	q3map_lightimage textures/station15_custom_src/u_floor_pan4_l_g
+	q3map_lightimage textures/station15_custom_src/u_floor_pan4_l_a
 	surfaceparm nodamage
 	q3map_surfacelight 150
 	{
@@ -1275,14 +1275,14 @@ textures/station15_custom/u_floor3_pad_8
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_floor_pan4_l_g
+		map textures/station15_custom_src/u_floor_pan4_l_a
 		blendfunc add
 		rgbGen wave sin 0.8 0.1 0 2
 		tcMod stretch sawtooth 0.83 0.1 1 0
 		tcMod scale 2 2
 	}
 	{
-		map textures/station15_custom_src/u_floor_pan4_l_g
+		map textures/station15_custom_src/u_floor_pan4_l_a
 		blendfunc gl_one_minus_dst_color gl_one
 		rgbGen wave sin 0.4 0.1 0 1
 		tcMod stretch sawtooth 1.7 1 1 1
@@ -1293,7 +1293,7 @@ textures/station15_custom/u_floor3_pad_8
 textures/station15_custom/u_floor_pan3_l
 {
 	qer_editorimage textures/station15_custom_src/u_floor_pan3_l
-	q3map_lightimage textures/station15_custom_src/u_floor_pan3_l_g
+	q3map_lightimage textures/station15_custom_src/u_floor_pan3_l_a
 	surfaceparm nodlight
 	q3map_surfacelight 2100
 	{
@@ -1306,7 +1306,7 @@ textures/station15_custom/u_floor_pan3_l
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_floor_pan3_l_g
+		map textures/station15_custom_src/u_floor_pan3_l_a
 		blendfunc gl_one_minus_dst_color gl_one
 		rgbGen wave noise 0.7 0.13 0 2
 	}
@@ -1315,7 +1315,7 @@ textures/station15_custom/u_floor_pan3_l
 textures/station15_custom/u_floor_pan4_l
 {
 	qer_editorimage textures/station15_custom_src/u_floor_pan4_l
-	q3map_lightimage textures/station15_custom_src/u_floor_pan4_l_g
+	q3map_lightimage textures/station15_custom_src/u_floor_pan4_l_a
 	surfaceparm nodlight
 	q3map_surfacelight 2000
 	{
@@ -1328,7 +1328,7 @@ textures/station15_custom/u_floor_pan4_l
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_floor_pan4_l_g
+		map textures/station15_custom_src/u_floor_pan4_l_a
 		blendfunc add
 		rgbGen wave noise 0.6 0.06 0 99
 	}
@@ -1337,7 +1337,7 @@ textures/station15_custom/u_floor_pan4_l
 textures/station15_custom/u_floor3_lamp1
 {
 	qer_editorimage textures/station15_custom_src/u_floor3_lamp1
-	q3map_lightimage textures/station15_custom_src/u_floor_pan4_l_g
+	q3map_lightimage textures/station15_custom_src/u_floor_pan4_l_a
 	surfaceparm nodlight
 	q3map_surfacelight 2000
 	{
@@ -1350,7 +1350,7 @@ textures/station15_custom/u_floor3_lamp1
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_floor_pan4_l_g
+		map textures/station15_custom_src/u_floor_pan4_l_a
 		blendfunc add
 		rgbGen wave noise 0.6 0.2 0 1
 		tcMod stretch sin 1 0.4 0 0.09
@@ -1424,7 +1424,7 @@ surfaceparm nomarks
 		rgbGen identity
 		}
 		{
-		map textures/station15_custom_src/door1_g
+		map textures/station15_custom_src/door1_a
 		blendfunc add
 		rgbGen identity
 		}
@@ -1444,7 +1444,7 @@ surfaceparm nomarks
 		rgbGen identity
 		}
 		{
-		map textures/station15_custom_src/door1_locked_g
+		map textures/station15_custom_src/door1_locked_a
 		blendfunc add
 		rgbGen identity
 		}
@@ -1475,7 +1475,7 @@ textures/station15_custom/st_fan
 		{
 		map $lightmap
 		rgbGen identity
-		blendFunc GL_DST_dOLOR GL_ZERO
+		blendFunc GL_DST_COLOR GL_ZERO
 		depthFunc equal
 	}
 
@@ -1490,8 +1490,8 @@ textures/station15_custom/cubelight_32_blue_invis_s_15k
 	surfaceparm nomarks
 	surfaceparm noimpact
 	q3map_surfacelight 15000
-	q3map_lightimage textures/station15_custom_src/cubelight_32_blue_g
-	qer_editorimage textures/station15_custom_src/cubelight_32_blue_g
+	q3map_lightimage textures/station15_custom_src/cubelight_32_blue_a
+	qer_editorimage textures/station15_custom_src/cubelight_32_blue_a
 }
 
 
@@ -2073,7 +2073,7 @@ textures/station15_custom/flare_green_s
 textures/station15_custom/u_furnacelamp
 {
 	qer_editorimage textures/station15_custom_src/u_lamplong1_or
-	q3map_lightimage textures/station15_custom_src/u_lamplong1_or_g
+	q3map_lightimage textures/station15_custom_src/u_lamplong1_or_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_surfacelight 800
@@ -2087,7 +2087,7 @@ textures/station15_custom/u_furnacelamp
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamplong1_or_g
+		map textures/station15_custom_src/u_lamplong1_or_a
 		blendfunc gl_one_minus_dst_color gl_one
 		rgbGen wave sin 0.8 0.4 0 1.4
 	}
@@ -2098,7 +2098,7 @@ textures/station15_custom/u_furnacelamp
 textures/station15_custom/ship_engine
 {
 	qer_editorimage textures/station15_custom_src/u_lamp5_or
-	q3map_lightimage textures/station15_custom_src/u_lamp5_or_g
+	q3map_lightimage textures/station15_custom_src/u_lamp5_or_a
 	surfaceparm nodlight
 	surfaceparm nomarks
 	q3map_surfacelight 500
@@ -2112,7 +2112,7 @@ textures/station15_custom/ship_engine
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/u_lamp5_or_g
+		map textures/station15_custom_src/u_lamp5_or_a
 		blendfunc gl_one_minus_dst_color gl_one
 		rgbGen wave sin 0.92 0.03 0 8
 	}
@@ -2195,7 +2195,7 @@ textures/station15_custom/terrain1
 	}
 	{
 		map $lightmap
-		blendFunc GL_DST_dOLOR GL_ZERO
+		blendFunc GL_DST_COLOR GL_ZERO
 		rgbGen identity
 	}
 }
@@ -3022,7 +3022,7 @@ textures/station15_custom/sign_human_s
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/sign_human_g
+		map textures/station15_custom_src/sign_human_a
 		rgbGen const ( 0.5 0.6 0.65 )
 		blendfunc add
 	}
@@ -3047,7 +3047,7 @@ textures/station15_custom/sign_airlock_s
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/sign_airlock_g
+		map textures/station15_custom_src/sign_airlock_a
 		rgbGen const ( 0.5 0.6 0.65 )
 		blendfunc add
 	}
@@ -3072,7 +3072,7 @@ textures/station15_custom/sign_vent_s
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/sign_vent_g
+		map textures/station15_custom_src/sign_vent_a
 		rgbGen const ( 0.5 0.6 0.65 )
 		blendfunc add
 	}
@@ -3098,7 +3098,7 @@ textures/station15_custom/sign_alien_s
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/sign_alien_g
+		map textures/station15_custom_src/sign_alien_a
 		rgbGen const ( 0.5 0.6 0.65 )
 		blendfunc add
 	}
@@ -3123,7 +3123,7 @@ textures/station15_custom/sign_cargo_s
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/sign_cargo_g
+		map textures/station15_custom_src/sign_cargo_a
 		rgbGen const ( 0.5 0.6 0.65 )
 		blendfunc add
 	}
@@ -3148,7 +3148,7 @@ textures/station15_custom/sign_cargo_airlock_s
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/sign_cargo_airlock_g
+		map textures/station15_custom_src/sign_cargo_airlock_a
 		rgbGen const ( 0.5 0.6 0.65 )
 		blendfunc add
 	}
@@ -3173,7 +3173,7 @@ textures/station15_custom/sign_appreciation_s
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/sign_appreciation_g
+		map textures/station15_custom_src/sign_appreciation_a
 		rgbGen const ( 0.5 0.6 0.65 )
 		blendfunc add
 	}
@@ -3199,7 +3199,7 @@ textures/station15_custom/sign_furnace_s
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/sign_furnace_g
+		map textures/station15_custom_src/sign_furnace_a
 		rgbGen const ( 0.5 0.6 0.65 )
 		blendfunc add
 	}
@@ -3224,7 +3224,7 @@ textures/station15_custom/sign_garden_s
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/sign_garden_g
+		map textures/station15_custom_src/sign_garden_a
 		rgbGen const ( 0.5 0.6 0.65 )
 		blendfunc add
 	}
@@ -3249,7 +3249,7 @@ textures/station15_custom/sign_pipe_s
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/sign_pipe_g
+		map textures/station15_custom_src/sign_pipe_a
 		rgbGen const ( 0.5 0.6 0.65 )
 		blendfunc add
 	}
@@ -3274,7 +3274,7 @@ textures/station15_custom/sign_arrow_left_s
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/sign_arrow_left_g
+		map textures/station15_custom_src/sign_arrow_left_a
 		rgbGen const ( 0.5 0.6 0.65 )
 		blendfunc add
 	}
@@ -3299,7 +3299,7 @@ textures/station15_custom/sign_arrow_right_s
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/sign_arrow_right_g
+		map textures/station15_custom_src/sign_arrow_right_a
 
 
 
@@ -3328,7 +3328,7 @@ textures/station15_custom/sign_arrow_up_s
 		tcGen lightmap
 	}
 	{
-		map textures/station15_custom_src/sign_arrow_up_g
+		map textures/station15_custom_src/sign_arrow_up_a
 		rgbGen const ( 0.5 0.6 0.65 )
 		blendfunc add
 	}
