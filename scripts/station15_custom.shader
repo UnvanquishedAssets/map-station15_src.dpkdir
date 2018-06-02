@@ -1481,7 +1481,7 @@ textures/station15_custom/st_fan
 
 }
 
-textures/station15_custom/cubelight_32_blue_invis_s_15k
+textures/station15_custom/cubelight_32_blue_invis_15k
 {
 	surfaceparm nodraw
 	surfaceparm nolightmap
@@ -1992,9 +1992,9 @@ textures/station15_custom/u_gr8_9a
 	}
 }
 
-textures/station15_custom/flare_white_s
+textures/station15_custom/flare_white
 {
-	qer_editorimage textures/station15_custom_src/flare_white
+	qer_editorimage textures/station15_custom_src/flare_white_p
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -2002,15 +2002,15 @@ textures/station15_custom/flare_white_s
 	cull disable
 	qer_trans 0.6
 	{
-		map textures/station15_custom_src/flare_white
+		map textures/station15_custom_src/flare_white_d
 		blendfunc add
 	}
 }
 
 
-textures/station15_custom/flare_blue_s
+textures/station15_custom/flare_blue
 {
-	qer_editorimage textures/station15_custom_src/flare_blue
+	qer_editorimage textures/station15_custom_src/flare_blue_p
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -2018,14 +2018,14 @@ textures/station15_custom/flare_blue_s
 	cull disable
 	qer_trans 0.6
 	{
-		map textures/station15_custom_src/flare_blue
+		map textures/station15_custom_src/flare_blue_d
 		blendfunc add
 	}
 }
 
-textures/station15_custom/flare_red_s
+textures/station15_custom/flare_red
 {
-	qer_editorimage textures/station15_custom_src/flare_red
+	qer_editorimage textures/station15_custom_src/flare_red_p
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -2033,15 +2033,15 @@ textures/station15_custom/flare_red_s
 	cull disable
 	qer_trans 0.6
 	{
-		map textures/station15_custom_src/flare_red
+		map textures/station15_custom_src/flare_red_d
 		blendfunc add
 	}
 }
 
 
-textures/station15_custom/flare_orange_s
+textures/station15_custom/flare_orange
 {
-	qer_editorimage textures/station15_custom_src/flare_orange
+	qer_editorimage textures/station15_custom_src/flare_orange_p
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -2049,14 +2049,14 @@ textures/station15_custom/flare_orange_s
 	cull disable
 	qer_trans 0.6
 	{
-		map textures/station15_custom_src/flare_orange
+		map textures/station15_custom_src/flare_orange_d
 		blendfunc add
 	}
 }
 
-textures/station15_custom/flare_green_s
+textures/station15_custom/flare_green
 {
-	qer_editorimage textures/station15_custom_src/flare_green
+	qer_editorimage textures/station15_custom_src/flare_green_p
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -2064,7 +2064,7 @@ textures/station15_custom/flare_green_s
 	cull disable
 	qer_trans 0.6
 	{
-		map textures/station15_custom_src/flare_green
+		map textures/station15_custom_src/flare_green_d
 		blendfunc add
 	}
 }
@@ -2971,7 +2971,7 @@ textures/station15_custom/elegrate
 
 //signs
 
-textures/station15_custom/sign_fan_s
+textures/station15_custom/sign_fan
 {
 	qer_editorimage textures/station15_custom_src/fan
 	surfaceparm nomarks
@@ -2990,7 +2990,7 @@ textures/station15_custom/sign_fan_s
 	}
 }
 
-textures/station15_custom/sign_human_s
+textures/station15_custom/sign_human
 {
 	qer_editorimage textures/station15_custom_src/sign_human
 	surfaceparm nomarks
@@ -3015,7 +3015,7 @@ textures/station15_custom/sign_human_s
 	}
 }
 
-textures/station15_custom/sign_airlock_s
+textures/station15_custom/sign_airlock
 {
 	qer_editorimage textures/station15_custom_src/sign_airlock
 	surfaceparm nomarks
@@ -3040,7 +3040,7 @@ textures/station15_custom/sign_airlock_s
 	}
 }
 
-textures/station15_custom/sign_vent_s
+textures/station15_custom/sign_vent
 {
 	qer_editorimage textures/station15_custom_src/sign_vent
 	surfaceparm nomarks
@@ -3066,7 +3066,7 @@ textures/station15_custom/sign_vent_s
 }
 
 
-textures/station15_custom/sign_alien_s
+textures/station15_custom/sign_alien
 {
 	qer_editorimage textures/station15_custom_src/sign_alien
 	surfaceparm nomarks
@@ -3091,7 +3091,7 @@ textures/station15_custom/sign_alien_s
 	}
 }
 
-textures/station15_custom/sign_cargo_s
+textures/station15_custom/sign_cargo
 {
 	qer_editorimage textures/station15_custom_src/sign_cargo
 	surfaceparm nomarks
@@ -3116,7 +3116,7 @@ textures/station15_custom/sign_cargo_s
 	}
 }
 
-textures/station15_custom/sign_cargo_airlock_s
+textures/station15_custom/sign_cargo_airlock
 {
 	qer_editorimage textures/station15_custom_src/sign_cargo_airlock
 	surfaceparm nomarks
@@ -3141,7 +3141,7 @@ textures/station15_custom/sign_cargo_airlock_s
 	}
 }
 
-textures/station15_custom/sign_appreciation_s
+textures/station15_custom/sign_appreciation
 {
 	qer_editorimage textures/station15_custom_src/sign_appreciation
 	surfaceparm nomarks
@@ -3167,7 +3167,7 @@ textures/station15_custom/sign_appreciation_s
 }
 
 
-textures/station15_custom/sign_furnace_s
+textures/station15_custom/sign_furnace
 {
 	qer_editorimage textures/station15_custom_src/sign_furnace
 	surfaceparm nomarks
@@ -3192,7 +3192,7 @@ textures/station15_custom/sign_furnace_s
 	}
 }
 
-textures/station15_custom/sign_garden_s
+textures/station15_custom/sign_garden
 {
 	qer_editorimage textures/station15_custom_src/sign_garden
 	surfaceparm nomarks
@@ -3217,7 +3217,7 @@ textures/station15_custom/sign_garden_s
 	}
 }
 
-textures/station15_custom/sign_pipe_s
+textures/station15_custom/sign_pipe
 {
 	qer_editorimage textures/station15_custom_src/sign_pipe
 	surfaceparm nomarks
@@ -3242,7 +3242,7 @@ textures/station15_custom/sign_pipe_s
 	}
 }
 
-textures/station15_custom/sign_arrow_left_s
+textures/station15_custom/sign_arrow_left
 {
 	qer_editorimage textures/station15_custom_src/sign_arrow_left
 	surfaceparm nomarks
@@ -3267,7 +3267,7 @@ textures/station15_custom/sign_arrow_left_s
 	}
 }
 
-textures/station15_custom/sign_arrow_right_s
+textures/station15_custom/sign_arrow_right
 {
 	qer_editorimage textures/station15_custom_src/sign_arrow_right
 	surfaceparm nomarks
@@ -3296,7 +3296,7 @@ textures/station15_custom/sign_arrow_right_s
 }
 
 
-textures/station15_custom/sign_arrow_up_s
+textures/station15_custom/sign_arrow_up
 {
 	qer_editorimage textures/station15_custom_src/sign_arrow_up
 	surfaceparm nomarks
@@ -3503,7 +3503,7 @@ textures/station15_custom/water2
 
 }
 
-textures/station15_custom/sun_s
+textures/station15_custom/sun
 {
 	qer_editorimage textures/station15_custom_src/sun
 	surfaceparm nolightmap
