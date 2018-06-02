@@ -2296,19 +2296,6 @@ textures/station15_custom/waterspout
 	//}
 }
 
-// you don't want to know.
-textures/station15_custom/shoe_s
-{
-	qer_editorimage textures/station15_custom_src/shoe
-	surfaceparm nolightmap
-	surfaceparm nonsolid
-	{
-		map textures/station15_custom_src/shoe
-		rgbGen identityLighting
-	}
-}
-
-
 //Stuff borrowed from Ancient Remains
 // ======================================================================
 // Grass
