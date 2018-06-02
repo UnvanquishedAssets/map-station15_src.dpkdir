@@ -104,7 +104,7 @@ textures/station15_custom/terrain1
 textures/station15_custom/water
 {
 	qer_editorimage textures/station15_custom_src/water_p
-	qer_trans .4
+	qer_trans 0.6
 	q3map_globaltexture
 	entityMergable
 	surfaceparm nobuild
@@ -152,9 +152,10 @@ textures/station15_custom/water
 textures/station15_custom/tree01_leaves
 {
 	qer_editorimage textures/station15_custom_src/tree01_leaves_p
+//	qer_alphafunc greater 0.5
+	qer_trans 0.5
 	q3map_cloneShader textures/station15_custom/tree01_leaves_back //Not needed for lightmaps, methinks. // Edit, yes it is
 	q3map_vertexScale 1.5
-	qer_alphafunc greater 0.5
 	surfaceparm alphashadow
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -234,14 +235,14 @@ textures/station15_custom/tree01_stump
 textures/station15_custom/vine06
 {
 	qer_editorimage textures/station15_custom_src/vine06_p
+//	qer_alphafunc greater 0.5
+	qer_trans 0.6
 	q3map_cloneShader textures/station15_custom/vine06_back
 	q3map_vertexScale 2
-	qer_alphafunc greater 0.5
 	surfaceparm alphashadow
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
-	qer_trans 0.99
 	{
 		map textures/station15_custom_src/vine06_d
 		rgbGen vertex
@@ -271,7 +272,8 @@ textures/station15_custom/vine06_back
 textures/station15_custom/aseleaf		// Used for ASE file generation only
 {
 	qer_editorimage textures/station15_custom_src/leave02d_p	// Good solid leaf design
-	qer_alphafunc greater 0.5
+//	qer_alphafunc greater 0.5
+	qer_trans 0.5
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
@@ -286,9 +288,10 @@ textures/station15_custom/aseleaf		// Used for ASE file generation only
 textures/station15_custom/leave01a		// fern 1
 {
 	qer_editorimage textures/station15_custom_src/leave01a_p
+//	qer_alphafunc greater 0.5
+	qer_trans 0.5
 	q3map_cloneShader textures/station15_custom/leave01a_back
 	q3map_vertexScale 1.5
-	qer_alphafunc greater 0.5
 	surfaceparm alphashadow
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -319,9 +322,10 @@ textures/station15_custom/leave01a_back
 textures/station15_custom/leave01b		// fern 2
 {
 	qer_editorimage textures/station15_custom_src/leave01b_p
+//	qer_alphafunc greater 0.5
+	qer_trans 0.5
 	q3map_cloneShader textures/station15_custom/leave01b_back
 	q3map_vertexScale 1.5
-	qer_alphafunc greater 0.5
 	surfaceparm alphashadow
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -352,9 +356,10 @@ textures/station15_custom/leave01b_back
 textures/station15_custom/leave02c		// Like a lilly with lots of vains
 {
 	qer_editorimage textures/station15_custom_src/leave02c_p
+//	qer_alphafunc greater 0.5
+	qer_trans 0.5
 	q3map_cloneShader textures/station15_custom/leave02c_back
 	q3map_vertexScale 1.5
-	qer_alphafunc greater 0.5
 	surfaceparm alphashadow
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -385,9 +390,10 @@ textures/station15_custom/leave02c_back
 textures/station15_custom/leave02d		// Curvy pointy leave
 {
 	qer_editorimage textures/station15_custom_src/leave02d_p
+//	qer_alphafunc greater 0.5
+	qer_trans 0.5
 	q3map_cloneShader textures/station15_custom/leave02d_back
 	q3map_vertexScale 1.5
-	qer_alphafunc greater 0.5
 	surfaceparm alphashadow
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -418,9 +424,10 @@ textures/station15_custom/leave02d_back
 textures/station15_custom/leave04c		// Shiney leave
 {
 	qer_editorimage textures/station15_custom_src/leave04c_p
+//	qer_alphafunc greater 0.5
+	qer_trans 0.5
 	q3map_cloneShader textures/station15_custom/leave04c_back
 	q3map_vertexScale 1.5
-	qer_alphafunc greater 0.5
 	surfaceparm alphashadow
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -765,9 +772,6 @@ textures/station15_custom/sign_arrow_right
 	}
 	{
 		map textures/station15_custom_src/sign_arrow_right_a
-
-
-
 		rgbGen const ( 0.5 0.6 0.65 )
 		blendfunc add
 	}
@@ -802,7 +806,7 @@ textures/station15_custom/sign_arrow_up
 textures/station15_custom/waterfall
 {
 	qer_editorimage textures/station15_custom_src/waterfall_p
-	qer_trans .4
+	qer_trans 0.6
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -839,7 +843,7 @@ textures/station15_custom/waterfall
 textures/station15_custom/water2
 {
 	qer_editorimage textures/station15_custom_src/leaves_p
-	qer_trans .4
+	qer_trans 0.6
 	q3map_globaltexture
 	entityMergable
 	surfaceparm nobuild
@@ -850,7 +854,6 @@ textures/station15_custom/water2
 	cull disable
 	tesssize 64
 	deformVertexes wave 64 sin 0.8 1.5 2 .8
-
 	{
 		map textures/station15_custom_src/water_d
 		rgbGen const ( 0.8 0.8 0.3 )
@@ -872,7 +875,6 @@ textures/station15_custom/water2
 		AlphaFunc GE128
 		DepthWrite
 	}
-
 }
 
 textures/station15_custom/sun
@@ -925,38 +927,9 @@ textures/station15_custom/redlight
 }
 
 // new tree! :D
-textures/station15_custom/tree1_bark
-{
-	qer_editorImage textures/station15_custom_src/tree1_p
-	diffuseMap textures/station15_custom_src/tree1_d
-	normalMap textures/station15_custom_src/tree1_n
-	specularMap textures/station15_custom_src/tree1_s
-}
-
-textures/station15_custom/tree1_leaves
-{
-	qer_editorImage textures/station15_custom_src/tree1_p
-	qer_trans           0.50
-	surfaceparm alphashadow
-	surfaceparm trans
-	surfaceparm nonsolid
-	surfaceparm nomarks
-	surfaceparm nolightmap
-	cull                none
-	{
-		map       textures/station15_custom_src/tree1_d
-		//stage     diffuseMap
-		rgbGen vertex
-		alphaFunc GE128
-	}
-	//normalMap textures/station15_custom_src/tree1_n
-	//specularMap textures/station15_custom_src/tree1_s
-}
-
-// new tree! :D
 textures/station15_custom/tree2_bark
 {
-	qer_editorImage textures/station15_custom_src/tree2_p
+	qer_editorimage textures/station15_custom_src/tree2_p
 	diffuseMap textures/station15_custom_src/tree2_d
 	normalMap textures/station15_custom_src/tree2_n
 	specularMap textures/station15_custom_src/tree2_s
@@ -964,14 +937,14 @@ textures/station15_custom/tree2_bark
 
 textures/station15_custom/tree2_leaves
 {
-	qer_editorImage textures/station15_custom_src/tree2_p
-	qer_trans           0.50
+	qer_editorimage textures/station15_custom_src/tree2_p
+	qer_trans 0.5
 	surfaceparm alphashadow
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
 	surfaceparm nolightmap
-	cull                none
+	cull none
 	{
 		map       textures/station15_custom_src/tree2_d
 		stage     diffuseMap
