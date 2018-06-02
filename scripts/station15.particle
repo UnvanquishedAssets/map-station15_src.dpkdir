@@ -4,7 +4,7 @@ station15/fountain
 	{
 		particle
 		{
-			shader sync textures/station15_custom/waterp_shader
+			shader sync gfx/station15/waterp
 
 			displacement 0 0 0 ~2.0
 
@@ -37,7 +37,7 @@ station15/fountain
 	{
 		particle
 		{
-			shader sync textures/station15_custom/waterp_shader
+			shader sync gfx/station15/waterp
 
 			displacement 0 0 0 ~2.0
 
@@ -73,7 +73,7 @@ station15/haze
 	{
 		particle
 		{
-			shader sync textures/station15_custom/haze_shader
+			shader sync gfx/station15/haze
 
 			displacement -20 0 0 ~12.0
 
@@ -99,7 +99,7 @@ station15/haze
 
 		particle
 		{
-			shader sync textures/station15_custom/haze_shader
+			shader sync gfx/station15/haze
 
 			displacement 20 0 0 ~14.0
 
