@@ -1359,9 +1359,9 @@ textures/station15_custom/u_floor3_lamp1
 
 
 
-textures/station15_custom/space15_skybox
+textures/station15_custom/sky15
 {
-	qer_editorimage textures/station15_custom_src/Asteroid
+	qer_editorimage textures/station15_custom_src/sky15_p
 	q3map_skylight 85 4
 	q3map_noFast
 	q3map_lightmapFilterRadius 0 2
