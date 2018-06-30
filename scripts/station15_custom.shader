@@ -88,7 +88,7 @@ textures/station15_custom/terrain1
 	}
 	{
 		map textures/station15_custom_src/ter_mud1_d	// Secondary
-		blendFunc GL_sRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
+		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		alphaFunc GE128
 		rgbGen identity
 		alphaGen vertex
@@ -946,11 +946,10 @@ textures/station15_custom/tree2_leaves
 	surfaceparm nolightmap
 	cull none
 	{
-		map       textures/station15_custom_src/tree2_d
-		stage     diffuseMap
+		map textures/station15_custom_src/tree2_d
+		stage diffuseMap
 		rgbGen vertex
 		alphaFunc GE128
-
 	}
 	//normalMap textures/station15_custom_src/tree2_n
 	//specularMap textures/station15_custom_src/tree2_s
