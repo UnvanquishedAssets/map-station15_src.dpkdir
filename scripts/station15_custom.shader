@@ -70,9 +70,9 @@ textures/station15_custom/barrel_rst_sign
 	diffuseMap textures/station15_custom_src/barrel_rst_sign_d
 }
 
-textures/station15_custom/terrain1
+textures/station15_custom/ter_mudmoss1
 {
-	qer_editorimage textures/station15_custom_src/ter_moss1_p
+	qer_editorimage textures/station15_custom_src/ter_mudmoss1_p
 
 	q3map_nonplanar
 	q3map_shadeangle 120
