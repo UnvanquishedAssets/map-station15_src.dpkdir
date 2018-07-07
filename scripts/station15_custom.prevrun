@@ -1,6 +1,0 @@
-[_init_]
-extend = "${game}"
-
-[dir]
-source = "textures/station15_custom_src"
-preview = "textures/station15_custom_src"

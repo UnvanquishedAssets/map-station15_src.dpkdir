@@ -4,7 +4,7 @@
 
 textures/station15_custom/door1
 {
-	qer_editorimage textures/station15_custom_src/door1_p
+	qer_editorimage textures/station15_custom_src/door1_d
 
 	diffuseMap textures/station15_custom_src/door1_d
 	normalMap textures/station15_custom_src/door1_n
@@ -13,7 +13,7 @@ textures/station15_custom/door1
 
 textures/station15_custom/door1_locked
 {
-	qer_editorimage textures/station15_custom_src/door1_locked_p
+	qer_editorimage textures/station15_custom_src/door1_locked_d
 
 	diffuseMap textures/station15_custom_src/door1_locked_d
 	normalMap textures/station15_custom_src/door1_n
@@ -40,7 +40,7 @@ textures/station15_custom/pipe_nonsolid
 	surfaceparm nonsolid
 	surfaceparm noimpact
 	surfaceparm nomarks
-	qer_editorimage textures/station15_custom_src/e6bmetal_p
+	qer_editorimage textures/station15_custom_src/e6bmetal_d
 	{
 		map textures/station15_custom_src/e6bmetal_d
 		rgbGen identity
@@ -54,19 +54,19 @@ textures/station15_custom/pipe_nonsolid
 
 textures/station15_custom/p_01
 {
-	qer_editorimage textures/station15_custom_src/p_01_p
+	qer_editorimage textures/station15_custom_src/p_01_d
 	diffuseMap textures/station15_custom_src/p_01_d
 }
 
 textures/station15_custom/barrel_rst_top
 {
-	qer_editorimage textures/station15_custom_src/barrel_rst_top_p
+	qer_editorimage textures/station15_custom_src/barrel_rst_top_d
 	diffuseMap textures/station15_custom_src/barrel_rst_top_d
 }
 
 textures/station15_custom/barrel_rst_sign
 {
-	qer_editorimage textures/station15_custom_src/barrel_rst_sign_p
+	qer_editorimage textures/station15_custom_src/barrel_rst_sign_d
 	diffuseMap textures/station15_custom_src/barrel_rst_sign_d
 }
 
@@ -103,7 +103,7 @@ textures/station15_custom/ter_mudmoss1
 //Crappy water
 textures/station15_custom/water
 {
-	qer_editorimage textures/station15_custom_src/water_p
+	qer_editorimage textures/station15_custom_src/water_d
 	qer_trans 0.6
 	q3map_globaltexture
 	entityMergable
@@ -151,7 +151,7 @@ textures/station15_custom/water
 
 textures/station15_custom/tree01_leaves
 {
-	qer_editorimage textures/station15_custom_src/tree01_leaves_p
+	qer_editorimage textures/station15_custom_src/tree01_leaves_d
 //	qer_alphafunc greater 0.5
 	qer_trans 0.5
 	q3map_cloneShader textures/station15_custom/tree01_leaves_back //Not needed for lightmaps, methinks. // Edit, yes it is
@@ -178,7 +178,7 @@ textures/station15_custom/tree01_leaves
 
 textures/station15_custom/tree01_leaves_back
 {
-	qer_editorimage textures/station15_custom_src/tree01_leaves_p
+	qer_editorimage textures/station15_custom_src/tree01_leaves_d
 	surfaceparm trans
 	q3map_invert
 	surfaceparm nonsolid
@@ -200,7 +200,7 @@ textures/station15_custom/tree01_leaves_back
 textures/station15_custom/tree01_bark
 {
 	surfaceparm slick
-	qer_editorimage textures/station15_custom_src/tree01_bark_p
+	qer_editorimage textures/station15_custom_src/tree01_bark_d
 	q3map_shadeangle 179
 	{
 		map textures/station15_custom_src/tree01_bark_d
@@ -216,7 +216,7 @@ textures/station15_custom/tree01_bark
 textures/station15_custom/tree01_stump
 {
 	surfaceparm slick
-	qer_editorimage textures/station15_custom_src/tree01_stump_p
+	qer_editorimage textures/station15_custom_src/tree01_stump_d
 	q3map_shadeangle 179
 	{
 		map textures/station15_custom_src/tree01_stump_d
@@ -234,7 +234,7 @@ textures/station15_custom/tree01_stump
 // ======================================================================
 textures/station15_custom/vine06
 {
-	qer_editorimage textures/station15_custom_src/vine06_p
+	qer_editorimage textures/station15_custom_src/vine06_d
 //	qer_alphafunc greater 0.5
 	qer_trans 0.6
 	q3map_cloneShader textures/station15_custom/vine06_back
@@ -253,7 +253,7 @@ textures/station15_custom/vine06
 
 textures/station15_custom/vine06_back
 {
-	qer_editorimage textures/station15_custom_src/vine06_p
+	qer_editorimage textures/station15_custom_src/vine06_d
 	surfaceparm trans
 	q3map_invert
 	surfaceparm nonsolid
@@ -287,7 +287,7 @@ textures/station15_custom/aseleaf		// Used for ASE file generation only
 
 textures/station15_custom/leave01a		// fern 1
 {
-	qer_editorimage textures/station15_custom_src/leave01a_p
+	qer_editorimage textures/station15_custom_src/leave01a_d
 //	qer_alphafunc greater 0.5
 	qer_trans 0.5
 	q3map_cloneShader textures/station15_custom/leave01a_back
@@ -306,7 +306,7 @@ textures/station15_custom/leave01a		// fern 1
 
 textures/station15_custom/leave01a_back
 {
-	qer_editorimage textures/station15_custom_src/leave01a_p
+	qer_editorimage textures/station15_custom_src/leave01a_d
 	surfaceparm trans
 	q3map_invert
 	surfaceparm nonsolid
@@ -321,7 +321,7 @@ textures/station15_custom/leave01a_back
 // ----------------------------------------------------------------------
 textures/station15_custom/leave01b		// fern 2
 {
-	qer_editorimage textures/station15_custom_src/leave01b_p
+	qer_editorimage textures/station15_custom_src/leave01b_d
 //	qer_alphafunc greater 0.5
 	qer_trans 0.5
 	q3map_cloneShader textures/station15_custom/leave01b_back
@@ -340,7 +340,7 @@ textures/station15_custom/leave01b		// fern 2
 
 textures/station15_custom/leave01b_back
 {
-	qer_editorimage textures/station15_custom_src/leave01b_p
+	qer_editorimage textures/station15_custom_src/leave01b_d
 	surfaceparm trans
 	q3map_invert
 	surfaceparm nonsolid
@@ -355,7 +355,7 @@ textures/station15_custom/leave01b_back
 // ----------------------------------------------------------------------
 textures/station15_custom/leave02c		// Like a lilly with lots of vains
 {
-	qer_editorimage textures/station15_custom_src/leave02c_p
+	qer_editorimage textures/station15_custom_src/leave02c_d
 //	qer_alphafunc greater 0.5
 	qer_trans 0.5
 	q3map_cloneShader textures/station15_custom/leave02c_back
@@ -374,7 +374,7 @@ textures/station15_custom/leave02c		// Like a lilly with lots of vains
 
 textures/station15_custom/leave02c_back
 {
-	qer_editorimage textures/station15_custom_src/leave02c_p
+	qer_editorimage textures/station15_custom_src/leave02c_d
 	surfaceparm trans
 	surfaceparm nonsolid
 	q3map_invert
@@ -389,7 +389,7 @@ textures/station15_custom/leave02c_back
 // ----------------------------------------------------------------------
 textures/station15_custom/leave02d		// Curvy pointy leave
 {
-	qer_editorimage textures/station15_custom_src/leave02d_p
+	qer_editorimage textures/station15_custom_src/leave02d_d
 //	qer_alphafunc greater 0.5
 	qer_trans 0.5
 	q3map_cloneShader textures/station15_custom/leave02d_back
@@ -408,7 +408,7 @@ textures/station15_custom/leave02d		// Curvy pointy leave
 
 textures/station15_custom/leave02d_back
 {
-	qer_editorimage textures/station15_custom_src/leave02d_p
+	qer_editorimage textures/station15_custom_src/leave02d_d
 	surfaceparm trans
 	surfaceparm nonsolid
 	q3map_invert
@@ -423,7 +423,7 @@ textures/station15_custom/leave02d_back
 // ----------------------------------------------------------------------
 textures/station15_custom/leave04c		// Shiney leave
 {
-	qer_editorimage textures/station15_custom_src/leave04c_p
+	qer_editorimage textures/station15_custom_src/leave04c_d
 //	qer_alphafunc greater 0.5
 	qer_trans 0.5
 	q3map_cloneShader textures/station15_custom/leave04c_back
@@ -442,7 +442,7 @@ textures/station15_custom/leave04c		// Shiney leave
 
 textures/station15_custom/leave04c_back
 {
-	qer_editorimage textures/station15_custom_src/leave04c_p
+	qer_editorimage textures/station15_custom_src/leave04c_d
 	surfaceparm trans
 	surfaceparm nonsolid
 	q3map_invert
@@ -458,7 +458,7 @@ textures/station15_custom/leave04c_back
 
 textures/station15_custom/sign_fan
 {
-	qer_editorimage textures/station15_custom_src/sign_fan_p
+	qer_editorimage textures/station15_custom_src/sign_fan_d
 	surfaceparm nomarks
 	surfaceparm noimpact
 	surfaceparm nonsolid
@@ -477,7 +477,7 @@ textures/station15_custom/sign_fan
 
 textures/station15_custom/sign_human
 {
-	qer_editorimage textures/station15_custom_src/sign_human_p
+	qer_editorimage textures/station15_custom_src/sign_human_d
 	surfaceparm nomarks
 	surfaceparm noimpact
 	surfaceparm nonsolid
@@ -502,7 +502,7 @@ textures/station15_custom/sign_human
 
 textures/station15_custom/sign_airlock
 {
-	qer_editorimage textures/station15_custom_src/sign_airlock_p
+	qer_editorimage textures/station15_custom_src/sign_airlock_d
 	surfaceparm nomarks
 	surfaceparm noimpact
 	surfaceparm nonsolid
@@ -527,7 +527,7 @@ textures/station15_custom/sign_airlock
 
 textures/station15_custom/sign_vent
 {
-	qer_editorimage textures/station15_custom_src/sign_vent_p
+	qer_editorimage textures/station15_custom_src/sign_vent_d
 	surfaceparm nomarks
 	surfaceparm noimpact
 	surfaceparm nonsolid
@@ -553,7 +553,7 @@ textures/station15_custom/sign_vent
 
 textures/station15_custom/sign_alien
 {
-	qer_editorimage textures/station15_custom_src/sign_alien_p
+	qer_editorimage textures/station15_custom_src/sign_alien_d
 	surfaceparm nomarks
 	surfaceparm noimpact
 	surfaceparm nonsolid
@@ -578,7 +578,7 @@ textures/station15_custom/sign_alien
 
 textures/station15_custom/sign_cargo
 {
-	qer_editorimage textures/station15_custom_src/sign_cargo_p
+	qer_editorimage textures/station15_custom_src/sign_cargo_d
 	surfaceparm nomarks
 	surfaceparm noimpact
 	surfaceparm nonsolid
@@ -603,7 +603,7 @@ textures/station15_custom/sign_cargo
 
 textures/station15_custom/sign_cargo_airlock
 {
-	qer_editorimage textures/station15_custom_src/sign_cargo_airlock_p
+	qer_editorimage textures/station15_custom_src/sign_cargo_airlock_d
 	surfaceparm nomarks
 	surfaceparm noimpact
 	surfaceparm nonsolid
@@ -628,7 +628,7 @@ textures/station15_custom/sign_cargo_airlock
 
 textures/station15_custom/sign_appreciation
 {
-	qer_editorimage textures/station15_custom_src/sign_appreciation_p
+	qer_editorimage textures/station15_custom_src/sign_appreciation_d
 	surfaceparm nomarks
 	surfaceparm noimpact
 	surfaceparm nonsolid
@@ -654,7 +654,7 @@ textures/station15_custom/sign_appreciation
 
 textures/station15_custom/sign_furnace
 {
-	qer_editorimage textures/station15_custom_src/sign_furnace_p
+	qer_editorimage textures/station15_custom_src/sign_furnace_d
 	surfaceparm nomarks
 	surfaceparm noimpact
 	surfaceparm nonsolid
@@ -679,7 +679,7 @@ textures/station15_custom/sign_furnace
 
 textures/station15_custom/sign_garden
 {
-	qer_editorimage textures/station15_custom_src/sign_garden_p
+	qer_editorimage textures/station15_custom_src/sign_garden_d
 	surfaceparm nomarks
 	surfaceparm noimpact
 	surfaceparm nonsolid
@@ -704,7 +704,7 @@ textures/station15_custom/sign_garden
 
 textures/station15_custom/sign_pipe
 {
-	qer_editorimage textures/station15_custom_src/sign_pipe_p
+	qer_editorimage textures/station15_custom_src/sign_pipe_d
 	surfaceparm nomarks
 	surfaceparm noimpact
 	surfaceparm nonsolid
@@ -729,7 +729,7 @@ textures/station15_custom/sign_pipe
 
 textures/station15_custom/sign_arrow_left
 {
-	qer_editorimage textures/station15_custom_src/sign_arrow_left_p
+	qer_editorimage textures/station15_custom_src/sign_arrow_left_d
 	surfaceparm nomarks
 	surfaceparm noimpact
 	surfaceparm nonsolid
@@ -754,7 +754,7 @@ textures/station15_custom/sign_arrow_left
 
 textures/station15_custom/sign_arrow_right
 {
-	qer_editorimage textures/station15_custom_src/sign_arrow_right_p
+	qer_editorimage textures/station15_custom_src/sign_arrow_right_d
 	surfaceparm nomarks
 	surfaceparm noimpact
 	surfaceparm nonsolid
@@ -780,7 +780,7 @@ textures/station15_custom/sign_arrow_right
 
 textures/station15_custom/sign_arrow_up
 {
-	qer_editorimage textures/station15_custom_src/sign_arrow_up_p
+	qer_editorimage textures/station15_custom_src/sign_arrow_up_d
 	surfaceparm nomarks
 	surfaceparm noimpact
 	surfaceparm nonsolid
@@ -842,7 +842,7 @@ textures/station15_custom/waterfall
 //Crappy water
 textures/station15_custom/water2
 {
-	qer_editorimage textures/station15_custom_src/leaves_p
+	qer_editorimage textures/station15_custom_src/leaves_d
 	qer_trans 0.6
 	q3map_globaltexture
 	entityMergable
@@ -879,7 +879,7 @@ textures/station15_custom/water2
 
 textures/station15_custom/sun
 {
-	qer_editorimage textures/station15_custom_src/sun_p
+	qer_editorimage textures/station15_custom_src/sun_d
 	surfaceparm nolightmap
 	surfaceparm nomarks
 	surfaceparm nonsolid
@@ -896,7 +896,7 @@ textures/station15_custom/sun
 
 textures/station15_custom/glass2
 {
-	qer_editorimage textures/station15_custom_src/darkglass_p
+	qer_editorimage textures/station15_custom_src/darkglass_d
 	{
 		map textures/station15_custom_src/darkglass_d
 		rgbGen identity
@@ -913,8 +913,8 @@ textures/station15_custom/glass2
 //Red Light
 textures/station15_custom/redlight
 {
-	qer_editorimage textures/station15_custom_src/red_p
-	q3map_lightimage textures/station15_custom_src/red_p
+	qer_editorimage textures/station15_custom_src/red_d
+	q3map_lightimage textures/station15_custom_src/red_d
 	surfaceparm nodlight
 	surfaceparm nonsolid
 	surfaceparm nomarks
@@ -929,7 +929,7 @@ textures/station15_custom/redlight
 // new tree! :D
 textures/station15_custom/tree2_bark
 {
-	qer_editorimage textures/station15_custom_src/tree2_p
+	qer_editorimage textures/station15_custom_src/tree2_d
 	diffuseMap textures/station15_custom_src/tree2_d
 	normalMap textures/station15_custom_src/tree2_n
 	specularMap textures/station15_custom_src/tree2_s
@@ -937,7 +937,7 @@ textures/station15_custom/tree2_bark
 
 textures/station15_custom/tree2_leaves
 {
-	qer_editorimage textures/station15_custom_src/tree2_p
+	qer_editorimage textures/station15_custom_src/tree2_d
 	qer_trans 0.5
 	surfaceparm alphashadow
 	surfaceparm trans
