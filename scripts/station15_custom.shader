@@ -100,7 +100,7 @@ textures/station15_custom/ter_mudmoss1
 	}
 }
 
-//Crappy water
+// Crappy water
 textures/station15_custom/water
 {
 	qer_editorImage textures/station15_custom_src/water_d
@@ -152,16 +152,16 @@ textures/station15_custom/water
 textures/station15_custom/tree01_leaves
 {
 	qer_editorImage textures/station15_custom_src/tree01_leaves_d
-//	qer_alphaFunc greater 0.5
-	qer_trans 0.5
-	q3map_cloneShader textures/station15_custom/tree01_leaves_back //Not needed for lightmaps, methinks. // Edit, yes it is
+	qer_alphaFunc greater 0.5
+	// Not needed for lightmaps, me thinks.
+	// Edit, yes it is
+	q3map_cloneShader textures/station15_custom/tree01_leaves_back
 	q3map_vertexScale 1.5
 	surfaceparm alphashadow
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
-	//qer_trans 0.99
-	//cull twosided
+	// cull twosided
 	{
 		map textures/station15_custom_src/tree01_leaves_d
 		rgbGen identity
@@ -235,8 +235,7 @@ textures/station15_custom/tree01_stump
 textures/station15_custom/vine06
 {
 	qer_editorImage textures/station15_custom_src/vine06_d
-//	qer_alphaFunc greater 0.5
-	qer_trans 0.6
+	qer_alphaFunc greater 0.5
 	q3map_cloneShader textures/station15_custom/vine06_back
 	q3map_vertexScale 2
 	surfaceparm alphashadow
@@ -269,11 +268,12 @@ textures/station15_custom/vine06_back
 // Leaves
 // ======================================================================
 
-textures/station15_custom/aseleaf		// Used for ASE file generation only
+// Used for ASE file generation only
+textures/station15_custom/aseleaf
 {
-	qer_editorImage textures/station15_custom_src/leave02d_p	// Good solid leaf design
-//	qer_alphaFunc greater 0.5
-	qer_trans 0.5
+	// Good solid leaf design
+	qer_editorImage textures/station15_custom_src/leave02d_d
+	qer_alphaFunc greater 0.5
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
@@ -285,11 +285,11 @@ textures/station15_custom/aseleaf		// Used for ASE file generation only
 	}
 }
 
-textures/station15_custom/leave01a		// fern 1
+// fern 1
+textures/station15_custom/leave01a
 {
 	qer_editorImage textures/station15_custom_src/leave01a_d
-//	qer_alphaFunc greater 0.5
-	qer_trans 0.5
+	qer_alphaFunc greater 0.5
 	q3map_cloneShader textures/station15_custom/leave01a_back
 	q3map_vertexScale 1.5
 	surfaceparm alphashadow
@@ -322,8 +322,7 @@ textures/station15_custom/leave01a_back
 textures/station15_custom/leave01b		// fern 2
 {
 	qer_editorImage textures/station15_custom_src/leave01b_d
-//	qer_alphaFunc greater 0.5
-	qer_trans 0.5
+	qer_alphaFunc greater 0.5
 	q3map_cloneShader textures/station15_custom/leave01b_back
 	q3map_vertexScale 1.5
 	surfaceparm alphashadow
@@ -353,11 +352,11 @@ textures/station15_custom/leave01b_back
 }
 
 // ----------------------------------------------------------------------
-textures/station15_custom/leave02c		// Like a lilly with lots of vains
+// Like a lilly with lots of vains
+textures/station15_custom/leave02c
 {
 	qer_editorImage textures/station15_custom_src/leave02c_d
-//	qer_alphaFunc greater 0.5
-	qer_trans 0.5
+	qer_alphaFunc greater 0.5
 	q3map_cloneShader textures/station15_custom/leave02c_back
 	q3map_vertexScale 1.5
 	surfaceparm alphashadow
@@ -387,11 +386,11 @@ textures/station15_custom/leave02c_back
 }
 
 // ----------------------------------------------------------------------
-textures/station15_custom/leave02d		// Curvy pointy leave
+// Curvy pointy leave
+textures/station15_custom/leave02d
 {
 	qer_editorImage textures/station15_custom_src/leave02d_d
-//	qer_alphaFunc greater 0.5
-	qer_trans 0.5
+	qer_alphaFunc greater 0.5
 	q3map_cloneShader textures/station15_custom/leave02d_back
 	q3map_vertexScale 1.5
 	surfaceparm alphashadow
@@ -421,11 +420,11 @@ textures/station15_custom/leave02d_back
 }
 
 // ----------------------------------------------------------------------
-textures/station15_custom/leave04c		// Shiney leave
+// Shiney leave
+textures/station15_custom/leave04c
 {
 	qer_editorImage textures/station15_custom_src/leave04c_d
-//	qer_alphaFunc greater 0.5
-	qer_trans 0.5
+	qer_alphaFunc greater 0.5
 	q3map_cloneShader textures/station15_custom/leave04c_back
 	q3map_vertexScale 1.5
 	surfaceparm alphashadow
@@ -839,11 +838,11 @@ textures/station15_custom/waterfall
 }
 
 
-//Crappy water
+// Crappy water with leaves
 textures/station15_custom/water2
 {
 	qer_editorImage textures/station15_custom_src/leaves_d
-	qer_trans 0.6
+	qer_trans 0.3
 	q3map_globaltexture
 	entityMergable
 	surfaceparm nobuild
@@ -938,7 +937,7 @@ textures/station15_custom/tree2_bark
 textures/station15_custom/tree2_leaves
 {
 	qer_editorImage textures/station15_custom_src/tree2_d
-	qer_trans 0.5
+	qer_alphaFunc greater 0.5
 	surfaceparm alphashadow
 	surfaceparm trans
 	surfaceparm nonsolid
@@ -951,6 +950,6 @@ textures/station15_custom/tree2_leaves
 		rgbGen vertex
 		alphaFunc GE128
 	}
-	//normalMap textures/station15_custom_src/tree2_n
-	//specularMap textures/station15_custom_src/tree2_s
+	// normalMap textures/station15_custom_src/tree2_n
+	// specularMap textures/station15_custom_src/tree2_s
 }
