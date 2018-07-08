@@ -146,90 +146,6 @@ textures/station15_custom/water
 }
 
 // ======================================================================
-// Awesome Tree
-// ======================================================================
-
-textures/station15_custom/tree01_leaves
-{
-	qer_editorImage textures/station15_custom_src/tree01_leaves_d
-	qer_alphaFunc greater 0.5
-	// Not needed for lightmaps, me thinks.
-	// Edit, yes it is
-	q3map_cloneShader textures/station15_custom/tree01_leaves_back
-	q3map_vertexScale 1.5
-	surfaceparm alphashadow
-	surfaceparm trans
-	surfaceparm nonsolid
-	surfaceparm nomarks
-	// cull twosided
-	{
-		map textures/station15_custom_src/tree01_leaves_d
-		rgbGen identity
-		depthWrite
-		alphaFunc GE128
-	}
-	{
-		map $lightmap
-		rgbGen identity
-		depthfunc equal
-		blendfunc filter
-	}
-}
-
-textures/station15_custom/tree01_leaves_back
-{
-	qer_editorImage textures/station15_custom_src/tree01_leaves_d
-	surfaceparm trans
-	q3map_invert
-	surfaceparm nonsolid
-	surfaceparm nomarks
-	q3map_lightmapscale 1.3
-	{
-		map textures/station15_custom_src/tree01_leaves_d
-		rgbGen const ( 0.9 0.9 0.9 )
-		alphaFunc GE128
-	}
-	{
-		map $lightmap
-		rgbGen identity
-		depthfunc equal
-		blendfunc filter
-	}
-}
-
-textures/station15_custom/tree01_bark
-{
-	surfaceparm slick
-	qer_editorImage textures/station15_custom_src/tree01_bark_d
-	q3map_shadeangle 179
-	{
-		map textures/station15_custom_src/tree01_bark_d
-		rgbGen identity
-	}
-	{
-		map $lightmap
-		rgbGen identity
-		blendfunc filter
-	}
-}
-
-textures/station15_custom/tree01_stump
-{
-	surfaceparm slick
-	qer_editorImage textures/station15_custom_src/tree01_stump_d
-	q3map_shadeangle 179
-	{
-		map textures/station15_custom_src/tree01_stump_d
-		rgbGen identity
-	}
-	{
-		map $lightmap
-		rgbGen identity
-		blendfunc filter
-	}
-}
-
-// ======================================================================
 // Vine
 // ======================================================================
 textures/station15_custom/vine06
@@ -909,7 +825,7 @@ textures/station15_custom/glass2
 	}
 }
 
-//Red Light
+// Red Light
 textures/station15_custom/redlight
 {
 	qer_editorImage textures/station15_custom_src/red_d
@@ -923,33 +839,4 @@ textures/station15_custom/redlight
 		map textures/station15_custom_src/red_d
 		rgbGen identity
 	}
-}
-
-// new tree! :D
-textures/station15_custom/tree2_bark
-{
-	qer_editorImage textures/station15_custom_src/tree2_d
-	diffuseMap textures/station15_custom_src/tree2_d
-	normalMap textures/station15_custom_src/tree2_n
-	specularMap textures/station15_custom_src/tree2_s
-}
-
-textures/station15_custom/tree2_leaves
-{
-	qer_editorImage textures/station15_custom_src/tree2_d
-	qer_alphaFunc greater 0.5
-	surfaceparm alphashadow
-	surfaceparm trans
-	surfaceparm nonsolid
-	surfaceparm nomarks
-	surfaceparm nolightmap
-	cull none
-	{
-		map textures/station15_custom_src/tree2_d
-		stage diffuseMap
-		rgbGen vertex
-		alphaFunc GE128
-	}
-	// normalMap textures/station15_custom_src/tree2_n
-	// specularMap textures/station15_custom_src/tree2_s
 }

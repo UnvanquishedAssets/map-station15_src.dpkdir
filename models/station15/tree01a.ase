@@ -22,52 +22,52 @@
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\common\caulk.tga"
+			*BITMAP	"textures/common/caulk"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
 	*MATERIAL	1	{
-		*MATERIAL_NAME	"textures/station15_custom/tree01_bark"
+		*MATERIAL_NAME	"models/station15/tree01_bark"
 		*MATERIAL_CLASS	"Standard"
 		*MATERIAL_DIFFUSE	1.000000	0.994083	0.940642
 		*MATERIAL_SHADING Phong
 		*MAP_DIFFUSE	{
-			*MAP_NAME	"textures/station15_custom_custom/tree01_bark"
+			*MAP_NAME	"models/station15/tree01_bark"
 			*MAP_CLASS	"Bitmap"
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\station15_custom\tree01_bark.tga"
+			*BITMAP	"models/station15/tree01_bark"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
 	*MATERIAL	2	{
-		*MATERIAL_NAME	"textures/station15_custom/tree01_stump"
+		*MATERIAL_NAME	"models/station15/tree01_stump"
 		*MATERIAL_CLASS	"Standard"
 		*MATERIAL_DIFFUSE	1.000000	0.948903	0.812789
 		*MATERIAL_SHADING Phong
 		*MAP_DIFFUSE	{
-			*MAP_NAME	"textures/station15_custom/tree01_stump"
+			*MAP_NAME	"models/station15/tree01_stump"
 			*MAP_CLASS	"Bitmap"
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\station15_custom\tree01_stump.tga"
+			*BITMAP	"models/station15/tree01_stump"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}
 	*MATERIAL	3	{
-		*MATERIAL_NAME	"textures/station15_custom/tree01_leaves"
+		*MATERIAL_NAME	"models/station15/tree01_leaves"
 		*MATERIAL_CLASS	"Standard"
 		*MATERIAL_DIFFUSE	0.676055	1.000000	0.283191
 		*MATERIAL_SHADING Phong
 		*MAP_DIFFUSE	{
-			*MAP_NAME	"textures/station15_custom/tree01_leaves"
+			*MAP_NAME	"models/station15/tree01_leaves"
 			*MAP_CLASS	"Bitmap"
 			*MAP_SUBNO	1
 			*MAP_AMOUNT	1.0
 			*MAP_TYPE	Screen
-			*BITMAP	"..\textures\station15_custom\tree01_leaves.tga"
+			*BITMAP	"models/station15/tree01_leaves"
 			*BITMAP_FILTER	Pyramidal
 		}
 	}

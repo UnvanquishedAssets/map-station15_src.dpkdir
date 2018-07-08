@@ -12,7 +12,7 @@
 *MATERIAL_LIST {                    
 	*MATERIAL_COUNT 1                    
 	*MATERIAL 0 {                    
-		*MATERIAL_NAME "textures/station15_custom/tree1_bark"                       
+		*MATERIAL_NAME "models/station15/mundo_tree1_bark"                       
 		*MATERIAL_CLASS "Multi/Sub-Object"                       
 		*MATERIAL_AMBIENT  0.0000 0.0000 0.0000                       
 		*MATERIAL_DIFFUSE  0.8000 0.8000 0.8000                       
@@ -28,7 +28,7 @@
 		*MATERIAL_XP_TYPE Filter                                              
 		*NUMSUBMTLS 2                       
 		*SUBMATERIAL 0 {                                
-		*MATERIAL_NAME "textures/station15_custom/tree1_bark"                       
+		*MATERIAL_NAME "models/station15/mundo_tree1_bark"                       
 		*MATERIAL_CLASS "Standard"                       
 		*MATERIAL_AMBIENT  0.0000 0.0000 0.0000                       
 		*MATERIAL_DIFFUSE  0.8000 0.8000 0.8000                       
@@ -47,7 +47,7 @@
 			*MAP_CLASS "Bitmap"                       
 			*MAP_SUBNO 1                       
 			*MAP_AMOUNT  1.0000                       
-			*BITMAP "/home/nope/Downloads/models/mundo/huge tree/diffuse.tga"                       
+			*BITMAP "models/station15/mundo_tree1_bark"                       
 			*MAP_TYPE Screen                       
 			*UVW_U_OFFSET  0.0000                       
 			*UVW_V_OFFSET  0.0000                       
@@ -64,7 +64,7 @@
 		}                                                                              
 		}
 		*SUBMATERIAL 1 {                                
-		*MATERIAL_NAME "textures/station15_custom/tree1_leaves"                       
+		*MATERIAL_NAME "models/station15/mundo_tree1_leaves"                       
 		*MATERIAL_CLASS "Standard"                       
 		*MATERIAL_AMBIENT  0.0000 0.0000 0.0000                       
 		*MATERIAL_DIFFUSE  0.8000 0.8000 0.8000                       

@@ -12,7 +12,7 @@
 *MATERIAL_LIST {                    
 	*MATERIAL_COUNT 1                    
 	*MATERIAL 0 {                    
-		*MATERIAL_NAME "textures/station15_custom/tree2_bark"                       
+		*MATERIAL_NAME "models/station15/mundo_tree2_bark"                       
 		*MATERIAL_CLASS "Multi/Sub-Object"                       
 		*MATERIAL_AMBIENT  0.0000 0.0000 0.0000                       
 		*MATERIAL_DIFFUSE  0.8000 0.8000 0.8000                       
@@ -28,7 +28,7 @@
 		*MATERIAL_XP_TYPE Filter                                              
 		*NUMSUBMTLS 2                       
 		*SUBMATERIAL 0 {                                
-		*MATERIAL_NAME "textures/station15_custom/tree2_bark"                       
+		*MATERIAL_NAME "models/station15/mundo_tree2_bark"                       
 		*MATERIAL_CLASS "Standard"                       
 		*MATERIAL_AMBIENT  0.0000 0.0000 0.0000                       
 		*MATERIAL_DIFFUSE  0.8000 0.8000 0.8000                       
@@ -64,7 +64,7 @@
 		}                                                                              
 		}
 		*SUBMATERIAL 1 {                                
-		*MATERIAL_NAME "textures/station15_custom/tree2_leaves"                       
+		*MATERIAL_NAME "models/station15/mundo_tree2_leaves"                       
 		*MATERIAL_CLASS "Standard"                       
 		*MATERIAL_AMBIENT  0.0000 0.0000 0.0000                       
 		*MATERIAL_DIFFUSE  0.8000 0.8000 0.8000                       
