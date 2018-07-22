@@ -1,53 +1,18 @@
 -[ general ]-----------------------------------------------------------------
     title        : Station 15 - Release 1
-    filename     : station15-r1.bsp
+    filename     : station15.bsp
     release date : 7.4.2014
 
 -[ credits ]-----------------------------------------------------------------
     construction: : supertanker | supertanker13@gmail.com
     textures      : Some textures are from evillair's texture sets (these will be replaced in a future version)
-                    Some were contributed by Keziolio under a CC By-SA 3.0 license:
-
-                         textures/station15_custom_src/leave02c.png
-                         textures/station15_custom_src/leave02d.png
-                         textures/station15_custom_src/leave04c.png
-                         textures/station15_custom_src/sign_airlock.png
-                         textures/station15_custom_src/sign_airlock_g.png
-                         textures/station15_custom_src/sign_alien.png
-                         textures/station15_custom_src/sign_alien_g.png
-                         textures/station15_custom_src/sign_appreciation.png
-                         textures/station15_custom_src/sign_appreciation_g.png
-                         textures/station15_custom_src/sign_arrow_left.png
-                         textures/station15_custom_src/sign_arrow_left_g.png
-                         textures/station15_custom_src/sign_arrow_right.png
-                         textures/station15_custom_src/sign_arrow_right_g.png
-                         textures/station15_custom_src/sign_arrow_up.png
-                         textures/station15_custom_src/sign_arrow_up_g.png
-                         textures/station15_custom_src/sign_cargo.png
-                         textures/station15_custom_src/sign_cargo_airlock.png
-                         textures/station15_custom_src/sign_cargo_airlock_g.png
-                         textures/station15_custom_src/sign_cargo_g.png
-                         textures/station15_custom_src/sign_furnace.png
-                         textures/station15_custom_src/sign_furnace_g.png
-                         textures/station15_custom_src/sign_garden.png
-                         textures/station15_custom_src/sign_garden_g.png
-                         textures/station15_custom_src/sign_human.png
-                         textures/station15_custom_src/sign_human_g.png
-                         textures/station15_custom_src/sign_pipe.png
-                         textures/station15_custom_src/sign_pipe_g.png
-                         textures/station15_custom_src/sign_vent.png
-                         textures/station15_custom_src/sign_vent_g.png
-                         textures/station15_custom_src/ter_moss1.png
-                         textures/station15_custom_src/ter_mud1.png
-                         textures/station15_custom_src/tree01_bark.png
-                         textures/station15_custom_src/tree01_leaves.png
-
+                  : Some textures are by Keziolio
     sounds        : Mostly from Tremulous, some from the Freesound project (http://freesound.iua.upf.edu/)
     thanks to     : The people that helped; the Great Clam.
                   : The betatesters: Nux, A_Spork, Kharnov, Kasm279, superpie,
                   : your_face, brain, philh, 7th|broken_heart, odin, f1rst19, and everyone else!
-    models:       : large tree model borrowed from Tremulous map Ancient Remains
-                  : pine tree by http://opengameart.org/users/yughues
+    models:       : large tree model by Lloyd Morris https://lloydmorrisdesign.com/
+                  : pine tree by yughues http://opengameart.org/users/yughues
 
 -[ gameplay ]----------------------------------------------------------------
     game mode     : tremulous | tremulous.net
@@ -84,16 +49,18 @@
 
 -[ legal ]-------------------------------------------------------------------
     The map file is licensed under a
-    Creative Commons Attribution-Share-Alike 3.0 License:
+    Creative Commons Attribution-Share-Alike 3.0 license:
     https://creativecommons.org/licenses/by-sa/3.0/
 
     The fan and shoe models were made by me; you may use them under the same conditions
     as the map file.
 
-    The textures by Speedy are under special permission to use under the CC-BY-SA license.
+    The textures by Speedy are under special permission to use under the
+	Creative Commons Attribution-Share-Alike 3.0 license.
 
     The following sounds were used from the Freesound project under the
     CC Sampling Plus 1.0 License:
+	https://creativecommons.org/licenses/sampling+/1.0/
 
     soundbytez's desert_aviary02.wav (insects.wav)
     Corsica_S's burton_waterfall_02.wav (waterfall.wav)
@@ -103,12 +70,63 @@
     HerbertBoland's Generator1.wav (generator.wav)
 
     The following sounds have been licenced by FisherP under the
-    Creative Commons Attribution 3.0 license (http://creativecommons.org/licenses/by/3.0/)
+    Creative Commons Attribution 3.0 license:
+	http://creativecommons.org/licenses/by/3.0/
 
     30-60HzHum.wav
 
-    The "mundo" tree models were made by http://opengameart.org/users/yughues in public domain
+    The "mundo" tree models and textures were made by
+	yughues http://opengameart.org/users/yughues
+	in public domain:
 
+	models/station15/mundo_tree.ase
+	models/station15/mundo_tree2a.ase
+	models/station15/mundo_tree2_d.png
+	models/station15/mundo_tree2_n.png
+	models/station15/mundo_tree2_s.png
+
+	The large tree model (except the textures, see after) was made by
+	Lloyd Morris https://lloydmorrisdesign.com/ and have been licensed under the
+	Creative Commons Attribution-ShareAlike 3.0 license:
+
+	models/station15/tree01a.ase
+
+	The following textures were made by Keziolio under the
+	Creative Commons Attribution-ShareAlike 3.0 license:
+
+	textures/station15_custom_src/leave02c.png
+	textures/station15_custom_src/leave02d.png
+	textures/station15_custom_src/leave04c.png
+	textures/station15_custom_src/sign_airlock.png
+	textures/station15_custom_src/sign_airlock_g.png
+	textures/station15_custom_src/sign_alien.png
+	textures/station15_custom_src/sign_alien_g.png
+	textures/station15_custom_src/sign_appreciation.png
+	textures/station15_custom_src/sign_appreciation_g.png
+	textures/station15_custom_src/sign_arrow_left.png
+	textures/station15_custom_src/sign_arrow_left_g.png
+	textures/station15_custom_src/sign_arrow_right.png
+	textures/station15_custom_src/sign_arrow_right_g.png
+	textures/station15_custom_src/sign_arrow_up.png
+	textures/station15_custom_src/sign_arrow_up_g.png
+	textures/station15_custom_src/sign_cargo.png
+	textures/station15_custom_src/sign_cargo_airlock.png
+	textures/station15_custom_src/sign_cargo_airlock_g.png
+	textures/station15_custom_src/sign_cargo_g.png
+	textures/station15_custom_src/sign_furnace.png
+	textures/station15_custom_src/sign_furnace_g.png
+	textures/station15_custom_src/sign_garden.png
+	textures/station15_custom_src/sign_garden_g.png
+	textures/station15_custom_src/sign_human.png
+	textures/station15_custom_src/sign_human_g.png
+	textures/station15_custom_src/sign_pipe.png
+	textures/station15_custom_src/sign_pipe_g.png
+	textures/station15_custom_src/sign_vent.png
+	textures/station15_custom_src/sign_vent_g.png
+	textures/station15_custom_src/ter_moss1.png
+	textures/station15_custom_src/ter_mud1.png
+	textures/station15_custom_src/tree01_bark.png
+	textures/station15_custom_src/tree01_leaves.png
 
 -[ other ]-------------------------------------------------------------------
     This map was built with gamma set to 1.0 in Tremulous. It is bright enough
