@@ -142,6 +142,6 @@ models/station15/mundo_tree2_leaves
 		rgbGen vertex
 		alphaFunc GE128
 	}
-	// normalMap models/station15/mundo_tree2_n
-	// specularMap models/station15/mundo_tree2_s
+	normalMap models/station15/mundo_tree2_n
+	specularMap models/station15/mundo_tree2_s
 }
