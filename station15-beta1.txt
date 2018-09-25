@@ -1,0 +1,35 @@
+
+   -[ general ]-----------------------------------------------------------------
+          title : Station 15 - Beta 1
+       filename : station15-beta1.bsp
+   release date : 1.12.2008
+   -[ credits ]-----------------------------------------------------------------
+   construction : supertanker | supertanker13@gmail.com
+       textures : I used textures from the Tremor and Niveus textures sets, also Speedy's Andromeda set.
+		: His site is at http://www.planetquake.com/speedy
+       thanks to: All you Tremulous mappers out there, Lava Croft especially, and Survivor.
+               
+   -[ gameplay ]----------------------------------------------------------------
+      game mode : tremulous | tremulous.net
+        players : 2-10+?
+
+   -[ construction ]------------------------------------------------------------
+     build time : 2 months
+       textures : Too many
+       software : GTKRadiant 1.5, q3map2, Ark (Archive utility for Linux)
+    compile time: 16 seconds BSP
+                : 44 seconds VIS
+                : 456 seconds RAD
+   -[ setting ]-----------------------------------------------------------------
+          theme : A medium-sized cargo handling station in space.
+
+   -[ legal ]-------------------------------------------------------------------
+   Please refer to the Tremulous license in the file COPYING. This map is copyright to me, but you may
+   use it as described in the COPYING file.
+
+   -[ other ]-------------------------------------------------------------------
+   
+   This map was built with gamma set to 1.0 in Tremulous. It is bright enough 
+   to play at that setting. Also, note this map is a BETA version and is not nearly finished. 
+   This is the 'true' public beta release. 
+ 
