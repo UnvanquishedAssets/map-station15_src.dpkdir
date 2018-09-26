@@ -1,7 +1,7 @@
 Station15
 =========
 
-![Station15 levelshot](meta/station15/station15.jpg)
+![Station15 levelshot](meta/station15/station15.png)
 
 
 About
