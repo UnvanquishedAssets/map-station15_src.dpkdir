@@ -2,7 +2,7 @@
 textures/station15_pk02/floor10
 {
 	qer_editorImage     textures/station15_pk02_src/floor10_d
-	qer_trans           0.50
+	qer_trans           .5
 
 	cull                none
 	surfaceparm         metalsteps

@@ -5,7 +5,7 @@ gfx/station15/flare_white
 	surfaceparm nonsolid
 	surfaceparm trans
 	cull disable
-	qer_trans 0.6
+	qer_trans .6
 	{
 		map gfx/station15/flare_white
 		blendfunc add
@@ -19,7 +19,7 @@ gfx/station15/flare_blue
 	surfaceparm nonsolid
 	surfaceparm trans
 	cull disable
-	qer_trans 0.6
+	qer_trans .6
 	{
 		map gfx/station15/flare_blue
 		blendfunc add
@@ -33,7 +33,7 @@ gfx/station15/flare_red
 	surfaceparm nonsolid
 	surfaceparm trans
 	cull disable
-	qer_trans 0.6
+	qer_trans .6
 	{
 		map gfx/station15/flare_red
 		blendfunc add
@@ -47,7 +47,7 @@ gfx/station15/flare_orange
 	surfaceparm nonsolid
 	surfaceparm trans
 	cull disable
-	qer_trans 0.6
+	qer_trans .6
 	{
 		map gfx/station15/flare_orange
 		blendfunc add
@@ -61,7 +61,7 @@ gfx/station15/flare_green
 	surfaceparm nonsolid
 	surfaceparm trans
 	cull disable
-	qer_trans 0.6
+	qer_trans .6
 	{
 		map gfx/station15/flare_green
 		blendfunc add

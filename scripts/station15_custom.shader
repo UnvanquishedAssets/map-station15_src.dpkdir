@@ -77,10 +77,10 @@ textures/station15_custom/ter_mudmoss1
 	q3map_nonplanar
 	q3map_shadeangle 120
 	q3map_tcGen ivector ( 256 0 0 ) ( 0 256 0 )
-	q3map_alphaMod dotproduct2 ( 0.0 0.0 0.75 )
+	q3map_alphaMod dotproduct2 ( 0 0 .75 )
 
 	// For nice grass on the ground (drops fps :/)
-	//q3map_surfacemodel models/station15-r1/grass.ase 45 0.15 0.6 1.2 0 360 1
+	//q3map_surfacemodel models/station15-r1/grass.ase 45 .15 .6 1.2 0 360 1
 
 	{
 		map textures/station15_custom_src/ter_moss1_d	// Primary
@@ -104,7 +104,7 @@ textures/station15_custom/ter_mudmoss1
 textures/station15_custom/water
 {
 	qer_editorImage textures/station15_custom_src/water_d
-	qer_trans 0.6
+	qer_trans .6
 	q3map_globaltexture
 	entityMergable
 	surfaceparm nobuild
@@ -114,19 +114,19 @@ textures/station15_custom/water
 
 	cull disable
 	tesssize 32
-	deformVertexes wave 32 sin 0.8 0.4 1 .4
+	deformVertexes wave 32 sin .8 .4 1 .4
 	{
 		map textures/station15_custom_src/water_d
-		rgbGen const ( 0.7 0.7 0.3 )
-		alphaGen const 0.45
+		rgbGen const ( .7 .7 .3 )
+		alphaGen const .45
 		blendfunc blend
 		tcMod scroll .03 .001
 	}
 	{
 		map textures/station15_custom_src/waterfall_r
-		alphagen const 0.2
+		alphagen const .2
 		blendfunc blend
-		rgbGen const ( 0.8 0.8 1 )
+		rgbGen const ( .8 .8 1 )
 		tcGen environment
 	}
 	//{
@@ -151,7 +151,7 @@ textures/station15_custom/water
 textures/station15_custom/vine06
 {
 	qer_editorImage textures/station15_custom_src/vine06_d
-	qer_alphaFunc greater 0.5
+	qer_alphaFunc greater .5
 	q3map_cloneShader textures/station15_custom/vine06_back
 	q3map_vertexScale 2
 	surfaceparm alphashadow
@@ -175,7 +175,7 @@ textures/station15_custom/vine06_back
 	surfaceparm nomarks
 	{
 		map textures/station15_custom_src/vine06_d
-		rgbGen const ( 0.25 0.25 0.25 )
+		rgbGen const ( .25 .25 .25 )
 		alphaFunc GE128	
 	}
 }
@@ -189,7 +189,7 @@ textures/station15_custom/aseleaf
 {
 	// Good solid leaf design
 	qer_editorImage textures/station15_custom_src/leave02d_d
-	qer_alphaFunc greater 0.5
+	qer_alphaFunc greater .5
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
@@ -205,7 +205,7 @@ textures/station15_custom/aseleaf
 textures/station15_custom/leave01a
 {
 	qer_editorImage textures/station15_custom_src/leave01a_d
-	qer_alphaFunc greater 0.5
+	qer_alphaFunc greater .5
 	q3map_cloneShader textures/station15_custom/leave01a_back
 	q3map_vertexScale 1.5
 	surfaceparm alphashadow
@@ -229,7 +229,7 @@ textures/station15_custom/leave01a_back
 	surfaceparm nomarks
 	{
 		map textures/station15_custom_src/leave01a_d
-		rgbGen const ( 0.2 0.2 0.2 )
+		rgbGen const ( .2 .2 .2 )
 		alphaFunc GE128	
 	}
 }
@@ -238,7 +238,7 @@ textures/station15_custom/leave01a_back
 textures/station15_custom/leave01b		// fern 2
 {
 	qer_editorImage textures/station15_custom_src/leave01b_d
-	qer_alphaFunc greater 0.5
+	qer_alphaFunc greater .5
 	q3map_cloneShader textures/station15_custom/leave01b_back
 	q3map_vertexScale 1.5
 	surfaceparm alphashadow
@@ -262,7 +262,7 @@ textures/station15_custom/leave01b_back
 	surfaceparm nomarks
 	{
 		map textures/station15_custom_src/leave01b_d
-		rgbGen const ( 0.2 0.2 0.2 )
+		rgbGen const ( .2 .2 .2 )
 		alphaFunc GE128	
 	}
 }
@@ -272,7 +272,7 @@ textures/station15_custom/leave01b_back
 textures/station15_custom/leave02c
 {
 	qer_editorImage textures/station15_custom_src/leave02c_d
-	qer_alphaFunc greater 0.5
+	qer_alphaFunc greater .5
 	q3map_cloneShader textures/station15_custom/leave02c_back
 	q3map_vertexScale 1.5
 	surfaceparm alphashadow
@@ -296,7 +296,7 @@ textures/station15_custom/leave02c_back
 	surfaceparm nomarks
 	{
 		map textures/station15_custom_src/leave02c_d
-		rgbGen const ( 0.2 0.2 0.2 )
+		rgbGen const ( .2 .2 .2 )
 		alphaFunc GE128	
 	}
 }
@@ -306,7 +306,7 @@ textures/station15_custom/leave02c_back
 textures/station15_custom/leave02d
 {
 	qer_editorImage textures/station15_custom_src/leave02d_d
-	qer_alphaFunc greater 0.5
+	qer_alphaFunc greater .5
 	q3map_cloneShader textures/station15_custom/leave02d_back
 	q3map_vertexScale 1.5
 	surfaceparm alphashadow
@@ -330,7 +330,7 @@ textures/station15_custom/leave02d_back
 	surfaceparm nomarks
 	{
 		map textures/station15_custom_src/leave02d_d
-		rgbGen const ( 0.2 0.2 0.2 )
+		rgbGen const ( .2 .2 .2 )
 		alphaFunc GE128	
 	}
 }
@@ -340,7 +340,7 @@ textures/station15_custom/leave02d_back
 textures/station15_custom/leave04c
 {
 	qer_editorImage textures/station15_custom_src/leave04c_d
-	qer_alphaFunc greater 0.5
+	qer_alphaFunc greater .5
 	q3map_cloneShader textures/station15_custom/leave04c_back
 	q3map_vertexScale 1.5
 	surfaceparm alphashadow
@@ -364,7 +364,7 @@ textures/station15_custom/leave04c_back
 	surfaceparm nomarks
 	{
 		map textures/station15_custom_src/leave04c_d
-		rgbGen const ( 0.2 0.2 0.2 )
+		rgbGen const ( .2 .2 .2 )
 		alphaFunc GE128	
 	}
 }
@@ -410,7 +410,7 @@ textures/station15_custom/sign_human
 	}
 	{
 		map textures/station15_custom_src/sign_human_a
-		rgbGen const ( 0.5 0.6 0.65 )
+		rgbGen const ( .5 .6 .65 )
 		blendfunc add
 	}
 }
@@ -435,7 +435,7 @@ textures/station15_custom/sign_airlock
 	}
 	{
 		map textures/station15_custom_src/sign_airlock_a
-		rgbGen const ( 0.5 0.6 0.65 )
+		rgbGen const ( .5 .6 .65 )
 		blendfunc add
 	}
 }
@@ -460,7 +460,7 @@ textures/station15_custom/sign_vent
 	}
 	{
 		map textures/station15_custom_src/sign_vent_a
-		rgbGen const ( 0.5 0.6 0.65 )
+		rgbGen const ( .5 .6 .65 )
 		blendfunc add
 	}
 }
@@ -486,7 +486,7 @@ textures/station15_custom/sign_alien
 	}
 	{
 		map textures/station15_custom_src/sign_alien_a
-		rgbGen const ( 0.5 0.6 0.65 )
+		rgbGen const ( .5 .6 .65 )
 		blendfunc add
 	}
 }
@@ -511,7 +511,7 @@ textures/station15_custom/sign_cargo
 	}
 	{
 		map textures/station15_custom_src/sign_cargo_a
-		rgbGen const ( 0.5 0.6 0.65 )
+		rgbGen const ( .5 .6 .65 )
 		blendfunc add
 	}
 }
@@ -536,7 +536,7 @@ textures/station15_custom/sign_cargo_airlock
 	}
 	{
 		map textures/station15_custom_src/sign_cargo_airlock_a
-		rgbGen const ( 0.5 0.6 0.65 )
+		rgbGen const ( .5 .6 .65 )
 		blendfunc add
 	}
 }
@@ -561,7 +561,7 @@ textures/station15_custom/sign_appreciation
 	}
 	{
 		map textures/station15_custom_src/sign_appreciation_a
-		rgbGen const ( 0.5 0.6 0.65 )
+		rgbGen const ( .5 .6 .65 )
 		blendfunc add
 	}
 }
@@ -587,7 +587,7 @@ textures/station15_custom/sign_furnace
 	}
 	{
 		map textures/station15_custom_src/sign_furnace_a
-		rgbGen const ( 0.5 0.6 0.65 )
+		rgbGen const ( .5 .6 .65 )
 		blendfunc add
 	}
 }
@@ -612,7 +612,7 @@ textures/station15_custom/sign_garden
 	}
 	{
 		map textures/station15_custom_src/sign_garden_a
-		rgbGen const ( 0.5 0.6 0.65 )
+		rgbGen const ( .5 .6 .65 )
 		blendfunc add
 	}
 }
@@ -637,7 +637,7 @@ textures/station15_custom/sign_pipe
 	}
 	{
 		map textures/station15_custom_src/sign_pipe_a
-		rgbGen const ( 0.5 0.6 0.65 )
+		rgbGen const ( .5 .6 .65 )
 		blendfunc add
 	}
 }
@@ -662,7 +662,7 @@ textures/station15_custom/sign_arrow_left
 	}
 	{
 		map textures/station15_custom_src/sign_arrow_left_a
-		rgbGen const ( 0.5 0.6 0.65 )
+		rgbGen const ( .5 .6 .65 )
 		blendfunc add
 	}
 }
@@ -687,7 +687,7 @@ textures/station15_custom/sign_arrow_right
 	}
 	{
 		map textures/station15_custom_src/sign_arrow_right_a
-		rgbGen const ( 0.5 0.6 0.65 )
+		rgbGen const ( .5 .6 .65 )
 		blendfunc add
 	}
 }
@@ -713,7 +713,7 @@ textures/station15_custom/sign_arrow_up
 	}
 	{
 		map textures/station15_custom_src/sign_arrow_up_a
-		rgbGen const ( 0.5 0.6 0.65 )
+		rgbGen const ( .5 .6 .65 )
 		blendfunc add
 	}
 }
@@ -721,31 +721,31 @@ textures/station15_custom/sign_arrow_up
 textures/station15_custom/waterfall
 {
 	qer_editorImage textures/station15_custom_src/waterfall_p
-	qer_trans 0.6
+	qer_trans .6
 	surfaceparm nomarks
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nolightmap
 	cull none
 	tesssize 64
-	deformVertexes wave 64 sin 0.5 0.2 2 3
+	deformVertexes wave 64 sin .5 .2 2 3
 	{
 		map textures/station15_custom_src/water_d
-		alphagen const 0.11
+		alphagen const .11
 		blendfunc blend
 		rgbGen identity
 		tcmod scroll 0 -2
 	}
 	{
 		map textures/station15_custom_src/waterfall_r
-		alphagen const 0.5
+		alphagen const .5
 		blendfunc blend
-		rgbGen const ( 0.8 0.8 1 )
+		rgbGen const ( .8 .8 1 )
 		tcGen environment
 	}
 	{
 		map textures/station15_custom_src/waterfall_w
-		alphagen const 0.10
+		alphagen const .1
 		blendfunc blend
 		rgbGen identity
 		tcmod scale 1.3 1.5
@@ -758,7 +758,7 @@ textures/station15_custom/waterfall
 textures/station15_custom/water2
 {
 	qer_editorImage textures/station15_custom_src/leaves_d
-	qer_trans 0.3
+	qer_trans .3
 	q3map_globaltexture
 	entityMergable
 	surfaceparm nobuild
@@ -768,20 +768,20 @@ textures/station15_custom/water2
 	surfaceparm nolightmap
 	cull disable
 	tesssize 64
-	deformVertexes wave 64 sin 0.8 1.5 2 .8
+	deformVertexes wave 64 sin .8 1.5 2 .8
 	{
 		map textures/station15_custom_src/water_d
-		rgbGen const ( 0.8 0.8 0.3 )
-		alphaGen const 0.20
+		rgbGen const ( .8 .8 .3 )
+		alphaGen const .2
 		blendfunc blend
 		tcMod scroll .03 .001
 	}
 	{
 		map textures/station15_custom_src/waterfall_r
-		alphagen const 0.3
+		alphagen const .3
 		blendfunc blend
-		rgbGen const ( 0.8 0.9 1 )
-		tcmod scale 0.2 1
+		rgbGen const ( .8 .9 1 )
+		tcmod scale .2 1
 		tcGen environment
 	}
 	{
@@ -819,7 +819,7 @@ textures/station15_custom/glass2
 	{
 		map textures/station15_custom_src/glass-env
 		rgbGen identity
-		alphaGen const 0.2
+		alphaGen const .2
 		tcGen environment
 		blendfunc blend
 	}

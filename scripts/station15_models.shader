@@ -40,7 +40,7 @@ models/station15/sandal
 models/station15/tree01_leaves
 {
 	qer_editorImage models/station15/tree01_leaves_d
-	qer_alphaFunc greater 0.5
+	qer_alphaFunc greater .5
 	// Not needed for lightmaps, me thinks.
 	// Edit, yes it is
 	q3map_cloneShader models/station15/tree01_leaves_back
@@ -74,7 +74,7 @@ models/station15/tree01_leaves_back
 	q3map_lightmapscale 1.3
 	{
 		map models/station15/tree01_leaves_d
-		rgbGen const ( 0.9 0.9 0.9 )
+		rgbGen const ( .9 .9 .9 )
 		alphaFunc GE128
 	}
 	{
@@ -129,7 +129,7 @@ models/station15/mundo_tree2_bark
 models/station15/mundo_tree2_leaves
 {
 	qer_editorImage models/station15/mundo_tree2_d
-	qer_alphaFunc greater 0.5
+	qer_alphaFunc greater .5
 	surfaceparm alphashadow
 	surfaceparm trans
 	surfaceparm nonsolid

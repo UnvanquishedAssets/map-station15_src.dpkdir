@@ -6,7 +6,7 @@ station15/fountain
 		{
 			shader sync gfx/station15/waterp
 
-			displacement 0 0 0 ~2.0
+			displacement 0 0 0 ~2
 
 			velocityType 		static
 			velocityDir 		linear
@@ -39,7 +39,7 @@ station15/fountain
 		{
 			shader sync gfx/station15/waterp
 
-			displacement 0 0 0 ~2.0
+			displacement 0 0 0 ~2
 
 			velocityType 		static
 			velocityDir 		linear
@@ -75,7 +75,7 @@ station15/haze
 		{
 			shader sync gfx/station15/haze
 
-			displacement -20 0 0 ~12.0
+			displacement -20 0 0 ~12
 
 			velocityType 		static
 			velocityDir 		linear
@@ -84,11 +84,11 @@ station15/haze
 
 			accelerationType		static
 			accelerationDir			linear
-			acceleration			1 0 -0.4 ~20
+			acceleration			1 0 -.4 ~20
 			accelerationMagnitude 	55
 
 			radius		75 20 15
-			alpha		100 0.12 .0
+			alpha		100 .12 0
 			rotation	0 0 ~3
 
 			lifeTime 1000
@@ -101,7 +101,7 @@ station15/haze
 		{
 			shader sync gfx/station15/haze
 
-			displacement 20 0 0 ~14.0
+			displacement 20 0 0 ~14
 
 			velocityType 		static
 			velocityDir 		linear
@@ -110,11 +110,11 @@ station15/haze
 
 			accelerationType		static
 			accelerationDir			linear
-			acceleration			-1 0 -0.2 ~45
+			acceleration			-1 0 -.2 ~45
 			accelerationMagnitude 	44
 
 			radius		75 30 15
-			alpha		100 0.12 .0
+			alpha		100 .12 0
 			rotation	0 0 ~3
 
 			lifeTime 1000
