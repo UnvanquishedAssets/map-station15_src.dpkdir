@@ -77,12 +77,8 @@
 
     yawfle's ventilation_fan_drone.wav (drone1.wav)
       https://freesound.org/people/yawfle/sounds/19849/
-
-    The following sounds were used from the Freesound project under the
-    CC Sampling Plus 1.0 License:
-    https://creativecommons.org/licenses/sampling+/1.0/
-
-    digitopia's 09_07_16_1921_parking_palacio_de_cristal_exit.wav (drone2.wav)
+    samuelcable's heater.ogg (drone2.flac), edited by illwieckz
+      https://freesound.org/people/samuelcable/sounds/364057/
 
     The following sounds have been licenced by FisherP under the
     Creative Commons Attribution 3.0 license:
