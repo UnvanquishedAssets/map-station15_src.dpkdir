@@ -59,15 +59,30 @@
 	Creative Commons Attribution-Share-Alike 3.0 license.
 
     The following sounds were used from the Freesound project under the
-    CC Sampling Plus 1.0 License:
-	https://creativecommons.org/licenses/sampling+/1.0/
+    Creative Commons Attribution 3.0 license:
+    http://creativecommons.org/licenses/by/3.0/
 
-    soundbytez's desert_aviary02.wav (insects.wav)
+    soundbytez's desert_aviary02.wav (insects.wavi)
+      https://freesound.org/people/soundbytez/sounds/104483/
     Corsica_S's burton_waterfall_02.wav (waterfall.wav)
+      https://freesound.org/people/tim.kahn/sounds/106012/
     pempi's elevator_motor.wav (liftstart2.wav, liftstop2.wav, doorstart.wav, doorstop.wav)
-    yawfle's ventilation_fan_drone.wav (drone1.wav)
-    digitopia's 09_07_16_1921_parking_palacio_de_cristal_exit.wav (drone2.wav)
+      https://freesound.org/people/pempi/sounds/33873/
     HerbertBoland's Generator1.wav (generator.wav)
+      https://freesound.org/people/HerbertBoland/sounds/114594/
+
+    The following sounds were used from the Freesound project under the
+    Creative Commons Zero 1.0 license:
+    https://creativecommons.org/publicdomain/zero/1.0/
+
+    yawfle's ventilation_fan_drone.wav (drone1.wav)
+      https://freesound.org/people/yawfle/sounds/19849/
+
+    The following sounds were used from the Freesound project under the
+    CC Sampling Plus 1.0 License:
+    https://creativecommons.org/licenses/sampling+/1.0/
+
+    digitopia's 09_07_16_1921_parking_palacio_de_cristal_exit.wav (drone2.wav)
 
     The following sounds have been licenced by FisherP under the
     Creative Commons Attribution 3.0 license:
