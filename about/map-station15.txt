@@ -62,7 +62,7 @@
     Creative Commons Attribution 3.0 license:
     http://creativecommons.org/licenses/by/3.0/
 
-    soundbytez's desert_aviary02.wav (insects.wavi)
+    soundbytez's desert_aviary02.wav (insects.wav)
       https://freesound.org/people/soundbytez/sounds/104483/
     Corsica_S's burton_waterfall_02.wav (waterfall.wav)
       https://freesound.org/people/tim.kahn/sounds/106012/
