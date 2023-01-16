@@ -1,5 +1,6 @@
 {
-map "station15"
-longname "Station 15"
-type "tremulous"
+	map "station15"
+	longname "Station 15"
+	author "Supertanker"
+	type "tremulous"
 }
