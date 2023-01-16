@@ -1,7 +1,7 @@
 Station15 game level for Unvanquished
 =====================================
 
-![Station15 levelshot](meta/station15/station15.png)
+![Station15 levelshot](meta/station15/station15.webp)
 
 
 About
