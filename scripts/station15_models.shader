@@ -3,9 +3,8 @@ models/station15/builder
 	qer_editorImage models/station15/builder_d
 
 	{
-		diffuseMap  models/station15/builder_d
+		diffuseMap models/station15/builder_d
 	}
-
 }
 
 models/station15/muffin_fan
@@ -13,9 +12,8 @@ models/station15/muffin_fan
 	qer_editorImage models/station15/muffin_fan_d
 
 	{
-		diffuseMap  models/station15/muffin_fan_d
+		diffuseMap models/station15/muffin_fan_d
 	}
-
 }
 
 models/station15/muffin_fan_logo
@@ -23,9 +21,8 @@ models/station15/muffin_fan_logo
 	qer_editorImage models/station15/muffin_fan_logo_d
 
 	{
-		diffuseMap  models/station15/muffin_fan_logo_d
+		diffuseMap models/station15/muffin_fan_logo_d
 	}
-
 }
 
 models/station15/muffin_fan_magnet
@@ -33,9 +30,8 @@ models/station15/muffin_fan_magnet
 	qer_editorImage models/station15/muffin_fan_magnet_d
 
 	{
-		diffuseMap  models/station15/muffin_fan_magnet_d
+		diffuseMap models/station15/muffin_fan_magnet_d
 	}
-
 }
 
 models/station15/sandal
@@ -119,7 +115,7 @@ models/station15/tree01_bark
 	surfaceparm slick
 
 	{
-		diffuseMap  models/station15/tree01_bark_d
+		diffuseMap models/station15/tree01_bark_d
 	}
 }
 
@@ -132,7 +128,7 @@ models/station15/tree01_stump
 	surfaceparm slick
 
 	{
-		diffuseMap  models/station15/tree01_stump_d
+		diffuseMap models/station15/tree01_stump_d
 	}
 }
 
@@ -141,8 +137,8 @@ models/station15/mundo_tree2_bark
 {
 	qer_editorImage models/station15/mundo_tree2_d
 	{
-		diffuseMap  models/station15/mundo_tree2_d
-		normalMap   models/station15/mundo_tree2_n
+		diffuseMap models/station15/mundo_tree2_d
+		normalMap models/station15/mundo_tree2_n
 		specularMap models/station15/mundo_tree2_s
 	}
 }
@@ -160,8 +156,8 @@ models/station15/mundo_tree2_leaves
 	cull none
 
 	{
-		diffuseMap  models/station15/mundo_tree2_d
-		normalMap   models/station15/mundo_tree2_n
+		diffuseMap models/station15/mundo_tree2_d
+		normalMap models/station15/mundo_tree2_n
 		specularMap models/station15/mundo_tree2_s
 		rgbGen vertex
 		alphaFunc GE128

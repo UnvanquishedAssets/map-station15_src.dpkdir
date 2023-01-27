@@ -7,9 +7,9 @@ textures/station15_custom/door1
 	qer_editorImage textures/station15_custom_src/door1_d
 
 	{
-		diffuseMap  textures/station15_custom_src/door1_d
-		normalMap   textures/station15_custom_src/door1_n
-		glowMap     textures/station15_custom_src/door1_a
+		diffuseMap textures/station15_custom_src/door1_d
+		normalMap textures/station15_custom_src/door1_n
+		glowMap textures/station15_custom_src/door1_a
 	}
 }
 
@@ -19,8 +19,8 @@ textures/station15_custom/door1_locked
 
 	{
 		diffuseMap textures/station15_custom_src/door1_locked_d
-		normalMap  textures/station15_custom_src/door1_n
-		glowMap    textures/station15_custom_src/door1_locked_a
+		normalMap textures/station15_custom_src/door1_n
+		glowMap textures/station15_custom_src/door1_locked_a
 	}
 }
 
@@ -49,7 +49,7 @@ textures/station15_custom/pipe_nonsolid
 	surfaceparm nomarks
 
 	{
-		diffuseMap  textures/station15_custom_src/e6bmetal_d
+		diffuseMap textures/station15_custom_src/e6bmetal_d
 	}
 }
 
@@ -58,7 +58,7 @@ textures/station15_custom/p_01
 	qer_editorImage textures/station15_custom_src/p_01_d
 
 	{
-		diffuseMap  textures/station15_custom_src/p_01_d
+		diffuseMap textures/station15_custom_src/p_01_d
 	}
 
 }
@@ -68,7 +68,7 @@ textures/station15_custom/barrel_rst_top
 	qer_editorImage textures/station15_custom_src/barrel_rst_top_d
 
 	{
-		diffuseMap  textures/station15_custom_src/barrel_rst_top_d
+		diffuseMap textures/station15_custom_src/barrel_rst_top_d
 	}
 
 }
@@ -78,7 +78,7 @@ textures/station15_custom/barrel_rst_sign
 	qer_editorImage textures/station15_custom_src/barrel_rst_sign_d
 
 	{
-		diffuseMap  textures/station15_custom_src/barrel_rst_sign_d
+		diffuseMap textures/station15_custom_src/barrel_rst_sign_d
 	}
 
 }
@@ -97,12 +97,12 @@ textures/station15_custom/ter_mudmoss1
 
 	{
 		// Primary
-		diffuseMap  textures/station15_custom_src/ter_moss1_d
+		diffuseMap textures/station15_custom_src/ter_moss1_d
 		rgbGen identity
 	}
 	{
 		// Secondary
-		diffuseMap  textures/station15_custom_src/ter_mud1_d
+		diffuseMap textures/station15_custom_src/ter_mud1_d
 		blendFunc GL_SRC_ALPHA GL_ONE_MINUS_SRC_ALPHA
 		alphaFunc GE128
 		rgbGen identity
@@ -127,6 +127,7 @@ textures/station15_custom/water
 	entityMergable
 
 	deformVertexes wave 32 sin .8 .4 1 .4
+
 	{
 		map textures/station15_custom_src/water_d
 		rgbGen const ( .7 .7 .3 )
@@ -134,6 +135,7 @@ textures/station15_custom/water
 		blendfunc blend
 		tcMod scroll .03 .001
 	}
+
 	{
 		map textures/station15_custom_src/waterfall_r
 		alphagen const .2
@@ -141,6 +143,7 @@ textures/station15_custom/water
 		rgbGen const ( .8 .8 1 )
 		tcGen environment
 	}
+
 	//{
 	//	map $whiteimage
 	//	alphagen lightingspecular
@@ -149,6 +152,7 @@ textures/station15_custom/water
 	//	//t/cMod scale .3 .3
 		//tcMod scroll .02 .1
 	//}
+
 	//{
 	//	map $lightmap
 	//	rgbGen identity
@@ -177,7 +181,7 @@ textures/station15_custom/vine06
 		map textures/station15_custom_src/vine06_d
 		rgbGen vertex
 		depthWrite
-		alphaFunc GE128	
+		alphaFunc GE128
 	}
 }
 
@@ -194,7 +198,7 @@ textures/station15_custom/vine06_back
 	{
 		map textures/station15_custom_src/vine06_d
 		rgbGen const ( .25 .25 .25 )
-		alphaFunc GE128	
+		alphaFunc GE128
 	}
 }
 
@@ -215,7 +219,7 @@ textures/station15_custom/aseleaf
 		map textures/station15_custom_src/leave02d_d
 		rgbGen vertex
 		depthWrite
-		alphaFunc GE128	
+		alphaFunc GE128
 	}
 }
 
@@ -237,7 +241,7 @@ textures/station15_custom/leave01a
 		map textures/station15_custom_src/leave01a_d
 		rgbGen vertex
 		depthWrite
-		alphaFunc GE128	
+		alphaFunc GE128
 	}
 }
 
@@ -254,7 +258,7 @@ textures/station15_custom/leave01a_back
 	{
 		map textures/station15_custom_src/leave01a_d
 		rgbGen const ( .2 .2 .2 )
-		alphaFunc GE128	
+		alphaFunc GE128
 	}
 }
 
@@ -276,7 +280,7 @@ textures/station15_custom/leave01b		// fern 2
 		map textures/station15_custom_src/leave01b_d
 		rgbGen vertex
 		depthWrite
-		alphaFunc GE128	
+		alphaFunc GE128
 	}
 }
 
@@ -293,7 +297,7 @@ textures/station15_custom/leave01b_back
 	{
 		map textures/station15_custom_src/leave01b_d
 		rgbGen const ( .2 .2 .2 )
-		alphaFunc GE128	
+		alphaFunc GE128
 	}
 }
 
@@ -316,7 +320,7 @@ textures/station15_custom/leave02c
 		map textures/station15_custom_src/leave02c_d
 		rgbGen vertex
 		depthWrite
-		alphaFunc GE128	
+		alphaFunc GE128
 	}
 }
 
@@ -325,7 +329,7 @@ textures/station15_custom/leave02c_back
 	qer_editorImage textures/station15_custom_src/leave02c_d
 
 	q3map_invert
-	
+
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
@@ -333,7 +337,7 @@ textures/station15_custom/leave02c_back
 	{
 		map textures/station15_custom_src/leave02c_d
 		rgbGen const ( .2 .2 .2 )
-		alphaFunc GE128	
+		alphaFunc GE128
 	}
 }
 
@@ -356,7 +360,7 @@ textures/station15_custom/leave02d
 		map textures/station15_custom_src/leave02d_d
 		rgbGen vertex
 		depthWrite
-		alphaFunc GE128	
+		alphaFunc GE128
 	}
 }
 
@@ -373,7 +377,7 @@ textures/station15_custom/leave02d_back
 	{
 		map textures/station15_custom_src/leave02d_d
 		rgbGen const ( .2 .2 .2 )
-		alphaFunc GE128	
+		alphaFunc GE128
 	}
 }
 
@@ -396,7 +400,7 @@ textures/station15_custom/leave04c
 		map textures/station15_custom_src/leave04c_d
 		rgbGen vertex
 		depthWrite
-		alphaFunc GE128	
+		alphaFunc GE128
 	}
 }
 
@@ -413,7 +417,7 @@ textures/station15_custom/leave04c_back
 	{
 		map textures/station15_custom_src/leave04c_d
 		rgbGen const ( .2 .2 .2 )
-		alphaFunc GE128	
+		alphaFunc GE128
 	}
 }
 
@@ -453,10 +457,10 @@ textures/station15_custom/sign_human
 	polygonOffset
 
 	{
-		diffuseMap  textures/station15_custom_src/sign_human_d
+		diffuseMap textures/station15_custom_src/sign_human_d
 	}
 	{
-		map         textures/station15_custom_src/sign_human_a
+		map textures/station15_custom_src/sign_human_a
 		rgbGen const ( .5 .6 .65 )
 		blendfunc add
 	}
@@ -475,10 +479,10 @@ textures/station15_custom/sign_airlock
 	polygonOffset
 
 	{
-		diffuseMap  textures/station15_custom_src/sign_airlock_d
+		diffuseMap textures/station15_custom_src/sign_airlock_d
 	}
 	{
-		map         textures/station15_custom_src/sign_airlock_a
+		map textures/station15_custom_src/sign_airlock_a
 		rgbGen const ( .5 .6 .65 )
 		blendfunc add
 	}
@@ -497,10 +501,10 @@ textures/station15_custom/sign_vent
 	polygonOffset
 
 	{
-		diffuseMap  textures/station15_custom_src/sign_vent_d
+		diffuseMap textures/station15_custom_src/sign_vent_d
 	}
 	{
-		map         textures/station15_custom_src/sign_vent_a
+		map textures/station15_custom_src/sign_vent_a
 		rgbGen const ( .5 .6 .65 )
 		blendfunc add
 	}
@@ -520,10 +524,10 @@ textures/station15_custom/sign_alien
 	polygonOffset
 
 	{
-		diffuseMap  textures/station15_custom_src/sign_alien_d
+		diffuseMap textures/station15_custom_src/sign_alien_d
 	}
 	{
-		map         textures/station15_custom_src/sign_alien_a
+		map textures/station15_custom_src/sign_alien_a
 		rgbGen const ( .5 .6 .65 )
 		blendfunc add
 	}
@@ -542,10 +546,10 @@ textures/station15_custom/sign_cargo
 	polygonOffset
 
 	{
-		diffuseMap  textures/station15_custom_src/sign_cargo_d
+		diffuseMap textures/station15_custom_src/sign_cargo_d
 	}
 	{
-		map         textures/station15_custom_src/sign_cargo_a
+		map textures/station15_custom_src/sign_cargo_a
 		rgbGen const ( .5 .6 .65 )
 		blendfunc add
 	}
@@ -564,10 +568,10 @@ textures/station15_custom/sign_cargo_airlock
 	polygonOffset
 
 	{
-		diffuseMap  textures/station15_custom_src/sign_cargo_airlock_d
+		diffuseMap textures/station15_custom_src/sign_cargo_airlock_d
 	}
 	{
-		map         textures/station15_custom_src/sign_cargo_airlock_a
+		map textures/station15_custom_src/sign_cargo_airlock_a
 		rgbGen const ( .5 .6 .65 )
 		blendfunc add
 	}
@@ -586,10 +590,10 @@ textures/station15_custom/sign_appreciation
 	polygonOffset
 
 	{
-		diffuseMap  textures/station15_custom_src/sign_appreciation_d
+		diffuseMap textures/station15_custom_src/sign_appreciation_d
 	}
 	{
-		map         textures/station15_custom_src/sign_appreciation_a
+		map textures/station15_custom_src/sign_appreciation_a
 		rgbGen const ( .5 .6 .65 )
 		blendfunc add
 	}
@@ -609,10 +613,10 @@ textures/station15_custom/sign_furnace
 	polygonOffset
 
 	{
-		diffuseMap  textures/station15_custom_src/sign_furnace_d
+		diffuseMap textures/station15_custom_src/sign_furnace_d
 	}
 	{
-		map         textures/station15_custom_src/sign_furnace_a
+		map textures/station15_custom_src/sign_furnace_a
 		rgbGen const ( .5 .6 .65 )
 		blendfunc add
 	}
@@ -631,10 +635,10 @@ textures/station15_custom/sign_garden
 	polygonOffset
 
 	{
-		diffuseMap  textures/station15_custom_src/sign_garden_d
+		diffuseMap textures/station15_custom_src/sign_garden_d
 	}
 	{
-		map         textures/station15_custom_src/sign_garden_a
+		map textures/station15_custom_src/sign_garden_a
 		rgbGen const ( .5 .6 .65 )
 		blendfunc add
 	}
@@ -652,10 +656,10 @@ textures/station15_custom/sign_pipe
 	polygonOffset
 
 	{
-		diffuseMap  textures/station15_custom_src/sign_pipe_d
+		diffuseMap textures/station15_custom_src/sign_pipe_d
 	}
 	{
-		map         textures/station15_custom_src/sign_pipe_a
+		map textures/station15_custom_src/sign_pipe_a
 		rgbGen const ( .5 .6 .65 )
 		blendfunc add
 	}
@@ -674,10 +678,10 @@ textures/station15_custom/sign_arrow_left
 	polygonOffset
 
 	{
-		diffuseMap  textures/station15_custom_src/sign_arrow_left_d
+		diffuseMap textures/station15_custom_src/sign_arrow_left_d
 	}
 	{
-		map         textures/station15_custom_src/sign_arrow_left_a
+		map textures/station15_custom_src/sign_arrow_left_a
 		rgbGen const ( .5 .6 .65 )
 		blendfunc add
 	}
@@ -696,10 +700,10 @@ textures/station15_custom/sign_arrow_right
 	polygonOffset
 
 	{
-		diffuseMap  textures/station15_custom_src/sign_arrow_right_d
+		diffuseMap textures/station15_custom_src/sign_arrow_right_d
 	}
 	{
-		map         textures/station15_custom_src/sign_arrow_right_a
+		map textures/station15_custom_src/sign_arrow_right_a
 		rgbGen const ( .5 .6 .65 )
 		blendfunc add
 	}
@@ -719,10 +723,10 @@ textures/station15_custom/sign_arrow_up
 	polygonOffset
 
 	{
-		diffuseMap  textures/station15_custom_src/sign_arrow_up_d
+		diffuseMap textures/station15_custom_src/sign_arrow_up_d
 	}
 	{
-		map         textures/station15_custom_src/sign_arrow_up_a
+		map textures/station15_custom_src/sign_arrow_up_a
 		rgbGen const ( .5 .6 .65 )
 		blendfunc add
 	}

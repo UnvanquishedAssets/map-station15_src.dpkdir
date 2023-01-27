@@ -75,8 +75,8 @@ gfx/station15/haze
 	{
 		map gfx/station15/water_haze
 		blendFunc blend
-		rgbGen		vertex
-		alphaGen	vertex
+		rgbGen vertex
+		alphaGen vertex
 	}
 }
 
@@ -87,8 +87,8 @@ gfx/station15/spark
 	{
 		map gfx/station15/spark
 		blendFunc add
-		rgbGen		const ( 1 1 1 )
-		alphaGen	vertex
+		rgbGen const ( 1 1 1 )
+		alphaGen vertex
 	}
 }
 
@@ -99,7 +99,7 @@ gfx/station15/waterp
 	{
 		map gfx/station15/mist
 		blendFunc add
-		rgbGen		const ( 1 1 1 )
-		alphaGen	vertex
+		rgbGen const ( 1 1 1 )
+		alphaGen vertex
 	}
 }
