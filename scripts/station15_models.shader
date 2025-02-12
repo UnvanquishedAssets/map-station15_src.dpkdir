@@ -71,6 +71,7 @@ models/station15/tree01_leaves
 	{
 		map models/station15/tree01_leaves_d
 		rgbGen identity
+		alphaGen identity
 		depthWrite
 		alphaFunc GE128
 	}
@@ -96,6 +97,7 @@ models/station15/tree01_leaves_back
 	{
 		map models/station15/tree01_leaves_d
 		rgbGen const ( .9 .9 .9 )
+		alphaGen identity
 		alphaFunc GE128
 	}
 	{
@@ -160,6 +162,7 @@ models/station15/mundo_tree2_leaves
 		normalMap models/station15/mundo_tree2_n
 		specularMap models/station15/mundo_tree2_s
 		rgbGen vertex
+		alphaGen identity
 		alphaFunc GE128
 	}
 }

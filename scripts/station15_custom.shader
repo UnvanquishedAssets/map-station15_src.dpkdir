@@ -215,9 +215,13 @@ textures/station15_custom/aseleaf
 	surfaceparm trans
 	surfaceparm nonsolid
 	surfaceparm nomarks
+
+	cull none
+	
 	{
 		map textures/station15_custom_src/leave02d_d
 		rgbGen vertex
+		alphaGen identity
 		depthWrite
 		alphaFunc GE128
 	}
@@ -240,6 +244,7 @@ textures/station15_custom/leave01a
 	{
 		map textures/station15_custom_src/leave01a_d
 		rgbGen vertex
+		alphaGen identity
 		depthWrite
 		alphaFunc GE128
 	}
@@ -258,6 +263,7 @@ textures/station15_custom/leave01a_back
 	{
 		map textures/station15_custom_src/leave01a_d
 		rgbGen const ( .2 .2 .2 )
+		alphaGen identity
 		alphaFunc GE128
 	}
 }
@@ -279,6 +285,7 @@ textures/station15_custom/leave01b		// fern 2
 	{
 		map textures/station15_custom_src/leave01b_d
 		rgbGen vertex
+		alphaGen identity
 		depthWrite
 		alphaFunc GE128
 	}
@@ -297,6 +304,7 @@ textures/station15_custom/leave01b_back
 	{
 		map textures/station15_custom_src/leave01b_d
 		rgbGen const ( .2 .2 .2 )
+		alphaGen identity
 		alphaFunc GE128
 	}
 }
@@ -319,6 +327,7 @@ textures/station15_custom/leave02c
 	{
 		map textures/station15_custom_src/leave02c_d
 		rgbGen vertex
+		alphaGen identity
 		depthWrite
 		alphaFunc GE128
 	}
@@ -337,6 +346,7 @@ textures/station15_custom/leave02c_back
 	{
 		map textures/station15_custom_src/leave02c_d
 		rgbGen const ( .2 .2 .2 )
+		alphaGen identity
 		alphaFunc GE128
 	}
 }
@@ -359,6 +369,7 @@ textures/station15_custom/leave02d
 	{
 		map textures/station15_custom_src/leave02d_d
 		rgbGen vertex
+		alphaGen identity
 		depthWrite
 		alphaFunc GE128
 	}
@@ -377,6 +388,7 @@ textures/station15_custom/leave02d_back
 	{
 		map textures/station15_custom_src/leave02d_d
 		rgbGen const ( .2 .2 .2 )
+		alphaGen identity
 		alphaFunc GE128
 	}
 }
@@ -399,6 +411,7 @@ textures/station15_custom/leave04c
 	{
 		map textures/station15_custom_src/leave04c_d
 		rgbGen vertex
+		alphaGen identity
 		depthWrite
 		alphaFunc GE128
 	}
@@ -417,6 +430,7 @@ textures/station15_custom/leave04c_back
 	{
 		map textures/station15_custom_src/leave04c_d
 		rgbGen const ( .2 .2 .2 )
+		alphaGen identity
 		alphaFunc GE128
 	}
 }
