@@ -73,6 +73,7 @@ gfx/station15/haze
 	entityMergable
 	cull none
 	{
+		depthFade 17
 		map gfx/station15/water_haze
 		blendFunc blend
 		rgbGen vertex
